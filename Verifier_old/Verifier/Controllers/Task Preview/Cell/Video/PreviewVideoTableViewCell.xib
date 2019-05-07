@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PreviewVideoTableViewCell" rowHeight="441" id="dae-8W-2ZX" customClass="PreviewVideoTableViewCell" customModule="Verifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="441"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dae-8W-2ZX" id="d6f-uM-54x">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="440.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="osx-R3-CC6" customClass="ShadowView" customModule="Verifier" customModuleProvider="target">
+                        <rect key="frame" x="30" y="30" width="303" height="350.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Video.Icon" translatesAutoresizingMaskIntoConstraints="NO" id="IbE-VN-zGH">
+                                <rect key="frame" x="20" y="15" width="24" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ERB-hC-eev"/>
+                                    <constraint firstAttribute="width" constant="24" id="cTp-oR-g7M"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDY-2t-0kc">
+                                <rect key="frame" x="20" y="50" width="281" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="gRU-5y-qDX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="SCDT Fonts" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTe-EB-gGa">
+                                <rect key="frame" x="20" y="83" width="281" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="hTc-02-F8S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rtd-e0-V7g">
+                                <rect key="frame" x="20" y="143.5" width="263" height="152"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="152" id="1gL-16-BTq"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="6" id="9TS-pP-co3">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="dae-8W-2ZX" id="cOd-VY-C1m"/>
+                                    <outlet property="delegate" destination="dae-8W-2ZX" id="IPc-mc-pHh"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rtd-e0-V7g" secondAttribute="bottom" constant="55" id="2c7-2v-BGm"/>
+                            <constraint firstItem="pDY-2t-0kc" firstAttribute="top" secondItem="osx-R3-CC6" secondAttribute="top" constant="50" id="67r-Om-X15"/>
+                            <constraint firstItem="JTe-EB-gGa" firstAttribute="top" secondItem="pDY-2t-0kc" secondAttribute="bottom" constant="13" id="Cw0-Jt-S6W"/>
+                            <constraint firstItem="IbE-VN-zGH" firstAttribute="leading" secondItem="osx-R3-CC6" secondAttribute="leading" constant="20" id="FcO-Mh-ZlZ"/>
+                            <constraint firstItem="pDY-2t-0kc" firstAttribute="leading" secondItem="osx-R3-CC6" secondAttribute="leading" constant="20" id="IaA-rd-vby"/>
+                            <constraint firstItem="pDY-2t-0kc" firstAttribute="leading" secondItem="IbE-VN-zGH" secondAttribute="trailing" constant="-24" id="JyK-Al-0HD"/>
+                            <constraint firstItem="JTe-EB-gGa" firstAttribute="leading" secondItem="osx-R3-CC6" secondAttribute="leading" constant="20" id="LL8-uk-9Sx"/>
+                            <constraint firstAttribute="trailing" secondItem="JTe-EB-gGa" secondAttribute="trailing" constant="2" id="Mff-Qg-bu8"/>
+                            <constraint firstItem="IbE-VN-zGH" firstAttribute="top" secondItem="osx-R3-CC6" secondAttribute="top" constant="15" id="gLE-1b-QBc"/>
+                            <constraint firstAttribute="trailing" secondItem="rtd-e0-V7g" secondAttribute="trailing" constant="20" id="gsG-kT-PBk"/>
+                            <constraint firstItem="rtd-e0-V7g" firstAttribute="centerX" secondItem="osx-R3-CC6" secondAttribute="centerX" id="r7a-lJ-zcM"/>
+                            <constraint firstItem="rtd-e0-V7g" firstAttribute="top" secondItem="JTe-EB-gGa" secondAttribute="bottom" constant="40" id="uzo-lM-us9"/>
+                            <constraint firstAttribute="trailing" secondItem="pDY-2t-0kc" secondAttribute="trailing" constant="2" id="y9a-Y7-JCX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Заполните поля" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xF6-jF-cul">
+                        <rect key="frame" x="124.5" y="380.5" width="114" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="cQk-kS-nsd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.95649260280000004" green="0.9604737163" blue="0.99929827449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="osx-R3-CC6" firstAttribute="leading" secondItem="d6f-uM-54x" secondAttribute="leading" constant="30" id="7tt-S4-NIw"/>
+                    <constraint firstItem="xF6-jF-cul" firstAttribute="top" secondItem="osx-R3-CC6" secondAttribute="bottom" id="EeA-wX-LIi"/>
+                    <constraint firstAttribute="bottom" secondItem="xF6-jF-cul" secondAttribute="bottom" id="TFM-1F-b82"/>
+                    <constraint firstItem="xF6-jF-cul" firstAttribute="centerX" secondItem="d6f-uM-54x" secondAttribute="centerX" id="e0y-al-jzr"/>
+                    <constraint firstItem="osx-R3-CC6" firstAttribute="top" secondItem="d6f-uM-54x" secondAttribute="top" constant="30" id="fHE-Mz-fQZ"/>
+                    <constraint firstAttribute="trailing" secondItem="osx-R3-CC6" secondAttribute="trailing" constant="30" id="htb-nn-hyv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="2ZN-wF-8nN"/>
+            <connections>
+                <outlet property="bottomInfoLabel" destination="xF6-jF-cul" id="w5f-7M-zoe"/>
+                <outlet property="bottomInfoLabelHeightConstraint" destination="cQk-kS-nsd" id="guE-Qc-xSL"/>
+                <outlet property="collectionView" destination="rtd-e0-V7g" id="veN-py-K3F"/>
+                <outlet property="collectionViewHeightConstraint" destination="1gL-16-BTq" id="Jtu-pC-fAL"/>
+                <outlet property="contentDataView" destination="osx-R3-CC6" id="fTh-hk-1hV"/>
+                <outlet property="descriptionLabel" destination="JTe-EB-gGa" id="bE9-d9-bif"/>
+                <outlet property="nameLabel" destination="pDY-2t-0kc" id="qeL-Bb-ce0"/>
+            </connections>
+            <point key="canvasLocation" x="79.200000000000003" y="-243.32833583208398"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Video.Icon" width="30" height="23"/>
+    </resources>
+</document>

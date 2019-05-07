@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "VRF"; ObjectID = "Fak-6V-aVh"; */
+"Fak-6V-aVh.text" = "VET";
+
+/* Class = "UILabel"; text = "Verify the verifier"; ObjectID = "Fdd-Or-GtY"; */
+"Fdd-Or-GtY.text" = "Verify the verifier";
+
+/* Class = "UILabel"; text = "Moscow"; ObjectID = "Myy-sb-Cgy"; */
+"Myy-sb-Cgy.text" = "Moscow";
+
+/* Class = "UILabel"; text = "675"; ObjectID = "UlU-Db-h7Y"; */
+"UlU-Db-h7Y.text" = "675";
+
+/* Class = "UILabel"; text = "Tasks done"; ObjectID = "YFN-Sk-KVC"; */
+"YFN-Sk-KVC.text" = "Tasks";
+
+/* Class = "UILabel"; text = "VERIFIER"; ObjectID = "hhn-bG-gNy"; */
+"hhn-bG-gNy.text" = "VERIFIER";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "o3G-yn-M7c"; */
+"o3G-yn-M7c.normalTitle" = "DONE";

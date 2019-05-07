@@ -1,0 +1,170 @@
+/* 
+  Localizable.strings
+  Verifier
+
+  Created by iPeople on 07.11.17.
+  Copyright © 2017 Yatseyko Yuriy. All rights reserved.
+*/
+
+"InternetErrorTitle" = "Error";
+"InternetErrorMessage" = "Please check your internet connection and try again.";
+"EmailErrorMessage" = "Your email is invalid.";
+"PasswordErrorMessage" = "Enter your password please.";
+"ConfirmPasswordErrorMessage" = "Enter your confirm password please.";
+"ConfirmAndPasswordErrorMessage" = "Your passwords do not match.";
+"Success change personal info" = "Your personal info has been successfully changed";
+"AddAPhoto" = "пожалуйста добавьте фото";
+
+//ProfileViewController
+"Profile" = "Profile";
+"Remove photo" = "Remove photo";
+"Uploading photo" = "Personalize your Verifier account by uploading your photo";
+
+//LoginViewController
+"Login" = "Login";
+
+"Your Password" = "Your Password";
+"Your E-Mail or ID" = "Your E-Mail or ID";
+"Enter your id" = "Enter your ID or Login";
+
+//SignUpViewController
+"Next" = "Next";
+
+"Registration" = "Registration";
+"Personal data" = "Personal data";
+"ID data" = "ID data";
+"Address" = "Address";
+"Avatar" = "Avatar";
+
+"Email" = "Email";
+"Password" = "Password";
+"Repeat password" = "Repeat password";
+
+"First name" = "First name";
+"Last name" = "Last name";
+"Phone" = "Phone";
+"Birth date" = "Birth date";
+
+"Work Place" = "Work Place";
+"Specialization" = "Specialization";
+"Nationality" = "Nationality";
+"Passport series" = "Passport series";
+"Passport number" = "Passport number";
+
+"Passport issue" = "Passport issue";
+"Passport issue date" = "Passport issue date";
+"Passport issue code" = "Passport issue code";
+
+"Address Type" = "тип адреса";
+"Country" = "Country";
+"Region" = "Region";
+"City" = "City";
+"Street" = "Street";
+"House" = "House";
+"Apartment" = "Apartment";
+"ZIP code" = "ZIP code";
+
+//"photo" = "Photo
+
+//DashboardDetailViewController
+"START" = "START";
+
+//SideMenuViewController
+"Tasks" = "Tasks";
+
+//BaseDetailTaskViewController
+"Record a Video" = "Record a Video";
+"SEND" = "SEND";
+"AlertTaskIsDone" = "Task is Done! Wait for customer approval!";
+"AlertOrderVerifier" = "You are outside execution zone";
+
+//PopUpWindowViewController
+"To Vote" = "to Vote";
+
+//PickerViewViewController
+"Choose type address" = "Choose type address";
+"Choose the country" = "Choose the country";
+
+//DatePickerViewController
+"Choose a date" = "Choose date";
+
+//Other
+"Currency" = "$";
+"Take a Photo" = "Take a Photo";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"ACTIVE" = "ACTIVE";
+
+"AppLanguage" = "en";
+"TitlePopUp" = "Task is Done!\nWait for customer approval!\nHash:";
+"DONE" = "DONE";
+"Details" = "Details";
+"Fill this field..." = "Fill this field..";
+"You’ve got" = "You’ve got";
+"Hash" = "Hash";
+"LoginErrorTitle" = "Error";
+"LoginErrorDescription" = "Incorrect login or password";
+"TaskErrorTitle" = "Error";
+"TaskErrorDescription" = "All fields should be filled";
+"Log Out" = "Log Out";
+"No tasks" = "No tasks";
+"No tasks done" = "No tasks";
+"MORE OF THE WEBSITE" = "MORE OF THE WEBSITE";
+
+//Settings
+"Settings" = "Settings";
+"Select the language" = "Select the language";
+"Save"="Save";
+"Address of Etherium wallet"="Address of Etherium wallet";
+"Wallet textfield placeholder"="Enter the address";
+"Balance label"="Balance";
+"Balance button"="Withdraw money";
+"Promocode label"="Your promocode";
+"Promocode share text"="Share your promocode with your friend to get bonus tokens";
+"Share app label"="Share the application";
+"Share app text label"="If you liked the application, please, share it with your friends with a reference link.";
+"Feed back label"="Feedback";
+"Subject label"="Subject of your message";
+
+"Subject 1"="Error of app usability";
+"Subject 2"="Error of  order transfer";
+"Subject 3"="Error of order execution";
+"Subject 4"="Crediting of tokens";
+"Subject 5"="App Usability Reviews";
+//Filters
+"Filters" = "Filters";
+"By time of execution" = "By time of execution";
+"By address" = "By address";
+"By radius" = "By radius";
+"By contents" = "By contents";
+
+//Filter first
+"Range of order execution" = "Range of order execution";
+
+"Today" = "Today";
+"Tomorrow" = "Tomorrow";
+"Within 1 week" = "Within 1 week";
+"Within 1 month" = "Within 1 month";
+"All" = "All";
+
+//Fiter second
+"Enter the address" = "Enter the address";
+
+//Filter third
+"Choose a radius" = "Choose a radius";
+
+//Filter fourth
+"Choose a content" = "Choose a content";
+
+"If you liked the app, share it with friends via the link" = "If you liked the app, share it with friends via the link";
+"Save" = "Save";
+
+//Right menu
+"Menu" = "Menu";
+"Personal Area" = "Personal data";
+"Create new order" = "Create new order";
+"My tasks" = "My tasks";
+"Verification requests" = "Verification Requests";
+"Filters" = "Filters";
+"Settings" = "Settings";
+"Wallet" = "Wallet";

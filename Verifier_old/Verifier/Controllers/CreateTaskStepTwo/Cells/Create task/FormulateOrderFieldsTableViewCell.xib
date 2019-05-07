@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FormulateOrderFieldsTableViewCell" rowHeight="250" id="KGk-i7-Jjw" customClass="FormulateOrderFieldsTableViewCell" customModule="Verifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Сформулируйте поля заявки" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRb-jg-xHg">
+                        <rect key="frame" x="8" y="30" width="390" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Дополните свою заявку, добавив в нее те поля, которые нужны для выполнения задания" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOp-8B-dNK">
+                        <rect key="frame" x="40.5" y="66" width="325" height="29"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.76834958791732788" green="0.78616851568222046" blue="0.85395121574401855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaE-2g-IDj">
+                        <rect key="frame" x="173" y="130" width="60" height="80.5"/>
+                        <state key="normal" image="@add_icon"/>
+                        <connections>
+                            <action selector="didPressAddFieldLabelButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BY0-q1-71g"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добавить поле" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkI-0V-bW9">
+                        <rect key="frame" x="8" y="223.5" width="390" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.95666950941085815" green="0.96191364526748657" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="hkI-0V-bW9" secondAttribute="bottom" constant="8" id="17T-SE-ihv"/>
+                    <constraint firstAttribute="trailing" secondItem="mRb-jg-xHg" secondAttribute="trailing" constant="8" id="58U-Os-fbH"/>
+                    <constraint firstItem="dOp-8B-dNK" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.8" id="63W-W4-yXm"/>
+                    <constraint firstItem="dOp-8B-dNK" firstAttribute="top" secondItem="mRb-jg-xHg" secondAttribute="bottom" constant="18" id="KzO-Hk-N2Y"/>
+                    <constraint firstItem="dOp-8B-dNK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Q0j-3I-Y21"/>
+                    <constraint firstItem="hkI-0V-bW9" firstAttribute="trailing" secondItem="mRb-jg-xHg" secondAttribute="trailing" id="VHX-Zu-gXW"/>
+                    <constraint firstItem="mRb-jg-xHg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="WRR-S1-vwX"/>
+                    <constraint firstItem="UaE-2g-IDj" firstAttribute="top" secondItem="dOp-8B-dNK" secondAttribute="bottom" constant="35" id="kav-qt-JYe"/>
+                    <constraint firstItem="UaE-2g-IDj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="keo-RZ-rEt"/>
+                    <constraint firstItem="hkI-0V-bW9" firstAttribute="leading" secondItem="mRb-jg-xHg" secondAttribute="leading" id="qLl-17-JPt"/>
+                    <constraint firstItem="mRb-jg-xHg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="tyF-AW-Z3y"/>
+                    <constraint firstItem="hkI-0V-bW9" firstAttribute="top" secondItem="UaE-2g-IDj" secondAttribute="bottom" constant="13" id="xdg-tV-Acm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addFieldLabel" destination="hkI-0V-bW9" id="Gt5-dq-op4"/>
+                <outlet property="descriptionLabel" destination="dOp-8B-dNK" id="BiS-js-Mip"/>
+                <outlet property="titleLabel" destination="mRb-jg-xHg" id="yMI-mY-upN"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="117"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="@add_icon" width="60" height="59"/>
+    </resources>
+</document>

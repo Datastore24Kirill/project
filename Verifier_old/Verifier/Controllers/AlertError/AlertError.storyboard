@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kdi-Bd-jpo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Alert Error View Controller-->
+        <scene sceneID="d5W-Fx-zbn">
+            <objects>
+                <viewController storyboardIdentifier="AlertErrorVC" id="Kdi-Bd-jpo" customClass="AlertErrorViewController" customModule="Verifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sVA-N1-zIF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nP-qH-iun">
+                                <rect key="frame" x="19" y="100" width="337.5" height="266.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="777" text="Ошибка" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6V-qd-zk3">
+                                        <rect key="frame" x="20" y="20" width="297.5" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Неверный логин или пароль" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okj-6h-oGO">
+                                        <rect key="frame" x="20" y="61" width="297.5" height="150.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="V6V-qd-zk3" firstAttribute="top" secondItem="7nP-qH-iun" secondAttribute="top" constant="20" id="IkW-92-tUG"/>
+                                    <constraint firstAttribute="trailing" secondItem="V6V-qd-zk3" secondAttribute="trailing" constant="20" id="L97-Ol-1Pm"/>
+                                    <constraint firstAttribute="trailing" secondItem="okj-6h-oGO" secondAttribute="trailing" constant="20" id="cRu-s0-9rV"/>
+                                    <constraint firstItem="V6V-qd-zk3" firstAttribute="leading" secondItem="7nP-qH-iun" secondAttribute="leading" constant="20" id="fYp-en-ghM"/>
+                                    <constraint firstItem="okj-6h-oGO" firstAttribute="leading" secondItem="7nP-qH-iun" secondAttribute="leading" constant="20" id="qRz-DM-byq"/>
+                                    <constraint firstItem="okj-6h-oGO" firstAttribute="top" secondItem="V6V-qd-zk3" secondAttribute="bottom" constant="20" id="vuv-If-P3w"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PH5-Sr-3a9" customClass="ShadowButton" customModule="Verifier" customModuleProvider="target">
+                                <rect key="frame" x="35.5" y="331.5" width="303.5" height="59.5"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.49898330479452052" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didPressOkButton:" destination="Kdi-Bd-jpo" eventType="touchUpInside" id="Wng-UK-6TM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.60022474315068497" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PH5-Sr-3a9" firstAttribute="height" secondItem="7nP-qH-iun" secondAttribute="height" multiplier="0.222" id="56W-SH-bFN"/>
+                            <constraint firstItem="PH5-Sr-3a9" firstAttribute="top" secondItem="okj-6h-oGO" secondAttribute="bottom" constant="20" id="5GO-Nd-Lmv"/>
+                            <constraint firstItem="PH5-Sr-3a9" firstAttribute="centerY" secondItem="7nP-qH-iun" secondAttribute="bottom" multiplier="0.986" id="ECb-pw-pRw"/>
+                            <constraint firstItem="PH5-Sr-3a9" firstAttribute="centerX" secondItem="7nP-qH-iun" secondAttribute="centerX" id="Ioe-2R-YOq"/>
+                            <constraint firstItem="7nP-qH-iun" firstAttribute="height" secondItem="sVA-N1-zIF" secondAttribute="height" multiplier="0.4" id="LfK-Dv-7pj"/>
+                            <constraint firstItem="7nP-qH-iun" firstAttribute="centerX" secondItem="sVA-N1-zIF" secondAttribute="centerX" id="f9x-dO-DC3"/>
+                            <constraint firstItem="7nP-qH-iun" firstAttribute="centerY" secondItem="sVA-N1-zIF" secondAttribute="centerY" multiplier="0.7" id="mN4-R2-vaz"/>
+                            <constraint firstItem="7nP-qH-iun" firstAttribute="width" secondItem="sVA-N1-zIF" secondAttribute="width" multiplier="0.9" id="oTG-0J-xNw"/>
+                            <constraint firstItem="PH5-Sr-3a9" firstAttribute="width" secondItem="7nP-qH-iun" secondAttribute="width" multiplier="0.9" id="zti-TM-yVx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q84-se-qGs"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="okj-6h-oGO" id="Z1L-3p-h0i"/>
+                        <outlet property="okButton" destination="PH5-Sr-3a9" id="Zaw-Q6-ht3"/>
+                        <outlet property="titleLabel" destination="V6V-qd-zk3" id="R4y-JN-fbC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LIk-Dl-qgo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="118"/>
+        </scene>
+    </scenes>
+</document>

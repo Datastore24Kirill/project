@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Choose item"; ObjectID = "7jZ-PZ-jse"; */
+"7jZ-PZ-jse.text" = "Choose item";
+
+/* Class = "UITextView"; text = "The task is done!\nYour transaction was succesfull.\nHash: e14a47b9"; ObjectID = "DBE-xl-7Fu"; */
+"DBE-xl-7Fu.text" = "The task is done!\nYour transaction was succesfull.\nHash: e14a47b9";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "DC8-Ga-Iwy"; */
+"DC8-Ga-Iwy.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Choose item"; ObjectID = "GOF-St-pMx"; */
+"GOF-St-pMx.text" = "Choose item";
+
+/* Class = "UILabel"; text = "Choose date"; ObjectID = "QJ4-Ca-Jj6"; */
+"QJ4-Ca-Jj6.text" = "Choose date";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "SX3-Hr-L96"; */
+"SX3-Hr-L96.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "gDv-zr-4fD"; */
+"gDv-zr-4fD.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "guF-Mg-42Z"; */
+"guF-Mg-42Z.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "mdz-4Y-dNN"; */
+"mdz-4Y-dNN.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oKj-aJ-ZQE"; */
+"oKj-aJ-ZQE.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "s98-Fq-kAq"; */
+"s98-Fq-kAq.normalTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "v2f-1o-d6s"; */
+"v2f-1o-d6s.normalTitle" = "Done";

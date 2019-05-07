@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "You’ve got:"; ObjectID = "1nH-CC-q1a"; */
+"1nH-CC-q1a.text" = "You’ve got:";
+
+/* Class = "UILabel"; text = "+675 "; ObjectID = "37V-db-yFX"; */
+"37V-db-yFX.text" = "+675 ";
+
+/* Class = "UILabel"; text = "VET"; ObjectID = "5hb-rM-R4o"; */
+"5hb-rM-R4o.text" = "VET";
+
+/* Class = "UILabel"; text = "e14a47b9"; ObjectID = "BI1-iV-Q5n"; */
+"BI1-iV-Q5n.text" = "e14a47b9";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "LIZ-tV-YgD"; */
+"LIZ-tV-YgD.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Hash:"; ObjectID = "TIQ-KC-9X7"; */
+"TIQ-KC-9X7.text" = "Hash:";
+
+/* Class = "UILabel"; text = "VERIFIER"; ObjectID = "ZzQ-P8-w72"; */
+"ZzQ-P8-w72.text" = "VERIFIER";
+
+/* Class = "UILabel"; text = "Details:"; ObjectID = "be1-Zl-pQe"; */
+"be1-Zl-pQe.text" = "Details:";
+
+/* Class = "UILabel"; text = "Selfie"; ObjectID = "gSc-qF-q25"; */
+"gSc-qF-q25.text" = "Selfie";
+
+/* Class = "UILabel"; text = "125 "; ObjectID = "jo8-kS-oUL"; */
+"jo8-kS-oUL.text" = "125 ";
+
+/* Class = "UILabel"; text = "+50 to VOTE"; ObjectID = "rGn-kE-tis"; */
+"rGn-kE-tis.text" = "+50 to VOTE";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "tvN-Lt-4lh"; */
+"tvN-Lt-4lh.normalTitle" = "DONE";
+
+/* Class = "UILabel"; text = "Moskow"; ObjectID = "xMD-S0-FkC"; */
+"xMD-S0-FkC.text" = "Moskow";

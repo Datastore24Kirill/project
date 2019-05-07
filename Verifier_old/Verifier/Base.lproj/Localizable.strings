@@ -1,0 +1,275 @@
+/* 
+  Localizable.strings
+  Verifier
+
+  Created by iPeople on 07.11.17.
+  Copyright © 2017 Yatseyko Yuriy. All rights reserved.
+*/
+
+"InternetErrorTitle" = "Error";
+"Error fill all fields" = "Need to fill all fields";
+"Error incorrect qr code" = "Incorrect QR-code";
+"InternetErrorMessage" = "Please check your internet connection and try again.";
+"EmailErrorMessage" = "Your email is invalid.";
+"PasswordErrorMessage" = "Enter your password please.";
+"ConfirmPasswordErrorMessage" = "Enter your confirm password please.";
+"ConfirmAndPasswordErrorMessage" = "Your passwords do not match.";
+"Success change personal info" = "Your personal info has been successfully changed";
+"add_photo" = "Please add photo";
+"Verify info error" = "You must fill out all the profile information";
+
+//MARK: - ProfileViewController
+"Profile" = "Profile";
+"Remove photo" = "Remove photo";
+"Uploading photo" = "Personalize your Verifier account by uploading your photo";
+
+//MARK: - LoginViewController
+"Login" = "Login";
+
+"Your Password" = "Your Password";
+"Your E-Mail or ID" = "Your E-Mail or ID";
+"Enter your id" = "Enter your ID or Login";
+
+//MARK: - SignUpViewController
+"Next" = "Next";
+"Fogot Password" = "Forgot your data?";
+"Help with sing in" = "Help with sing in.";
+"Login via" = "Login via";
+"Do not have account" = "Do not have account?";
+"Sign Up" = "Sign Up.";
+"through" = "Through";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"QR-code" = "QR-code";
+"Registration Info" = "Sign up to find out maximum features of the application Verifire";
+"Continue" = "Continue";
+
+"Registration" = "Registration";
+"Personal data" = "Personal data";
+"ID data" = "ID data";
+"Address" = "Address";
+"Avatar" = "Avatar";
+
+"Email" = "Email";
+"Password" = "Password";
+"Repeat password" = "Repeat password";
+
+"First name" = "First name";
+"Last name" = "Last name";
+"Phone" = "Phone";
+"Birth date" = "Birth date";
+
+"Work Place" = "Work Place";
+"Specialization" = "Specialization";
+"Nationality" = "Nationality";
+"Passport series" = "Passport series";
+"Passport number" = "Passport number";
+
+"Passport issue" = "Passport issue";
+"Passport issue date" = "Passport issue date";
+"Passport issue code" = "Passport issue code";
+
+"Address Type" = "тип адреса";
+"Country" = "Country";
+"Region" = "Region";
+"City" = "City";
+"Street" = "Street";
+"House" = "House";
+"Apartment" = "Apartment";
+"ZIP code" = "ZIP code";
+
+"Enter your promo code"="Enter your promo code";
+"Enter promo code"="Enter promo code";
+"Please enter 8 symbols"="Please enter 8 symbols";
+
+"If you have promo code, please enter"="If you have promo code, please enter";
+"Promo is empty. Do you want to continue?"="Promo is empty. Do you want to continue?";
+"Promo isn't correct"="Promo isn't correct";
+
+
+//MARK: - QRCodeViewController
+"QR enter" = "If you have QR code, \n scan it to enter applications";
+"Scan" = "Scan";
+"Back" = "Back";
+
+//MARK: - DashboardDetailViewController
+"START" = "START";
+
+//MARK: - SideMenuViewController
+"Tasks" = "Tasks";
+
+//MARK: - BaseDetailTaskViewController
+"Record a Video" = "Record a Video";
+"SEND" = "SEND";
+"AlertTaskIsDone" = "Task is Done! Wait for customer approval!";
+"AlertOrderVerifier" = "You are outside execution zone";
+
+//MARK: - PopUpWindowViewController
+"To Vote" = "to Vote";
+
+//MARK: - PickerViewViewController
+"Choose type address" = "Choose type address";
+"Choose the country" = "Choose the country";
+
+//MARK: - DatePickerViewController
+"Choose a date" = "Choose date";
+
+//MARK: - Other
+"Currency" = "$";
+"Take a Photo" = "Take a Photo";
+"Cancel" = "Cancel";
+"Approve" = "Approve";
+"APPROVE" = "APPROVE";
+"Done" = "Done";
+"Choose item" = "Choose item";
+"ACTIVE" = "ACTIVE";
+"CREATE" = "CREATE";
+
+"AppLanguage" = "en";
+"TitlePopUp" = "Task is Done!\nWait for customer approval!";
+"DONE" = "DONE";
+"Details" = "Details";
+"Fill this field..." = "Fill this field..";
+"You’ve got" = "You’ve got";
+"Hash" = "Hash";
+"LoginErrorTitle" = "Error";
+"LoginErrorDescription" = "Incorrect login or password";
+"TaskErrorTitle" = "Error";
+"TaskErrorDescription" = "All fields should be filled";
+"Log Out" = "Log Out";
+"No tasks" = "No tasks";
+"No tasks done" = "No tasks";
+"MORE OF THE WEBSITE" = "MORE OF THE WEBSITE";
+
+//MARK: - Settings
+"Settings nav" = "Settings";
+"Select the language" = "Select the language";
+"Save"="Save";
+"Address of Etherium wallet"="Address of Etherium wallet";
+"Enter the address"="Enter the address";
+"Balance"="Balance";
+"Withdraw money"="Withdraw money";
+"Your promocode"="Your promocode";
+"Share your promocode with your friend to get bonus tokens"="Share your promocode with your friend to get bonus tokens";
+"Share the application"="Share the application";
+"If you liked the application, please, share it with your friends with a reference link."="If you liked the application, please, share it with your friends with a reference link.";
+"The size of a video should not be bigger than 50 MB." = "The size of a video should not be bigger than 50 MB.";
+"A video should not last longer than 1 minute." = "A video should not last longer than 1 minute.";
+"A video should not last longer than 1 minute and be bigger than 50 MB."="A video should not last longer than 1 minute and be bigger than 50 MB.";
+"Feedback"="Feedback";
+"Subject of your message"="Subject of your message";
+"Error" = "Error";
+
+"Subject 1"="Error of app usability";
+"Subject 2"="Error of  order transfer";
+"Subject 3"="Error of order execution";
+"Subject 4"="Crediting of tokens";
+"Subject 5"="App Usability Reviews";
+
+"Thank you for your feedback"="Thank you for your feedback";
+
+//MARK: - Filters
+"By time of execution" = "By time of execution";
+"By address" = "By address";
+"By radius" = "By radius";
+"By contents" = "By contents";
+
+//MARK: - Filter first
+"Range of order execution" = "Range of order execution";
+"Today" = "Today";
+"Tomorrow" = "Tomorrow";
+"Within 1 week" = "Within 1 week";
+"Within 1 month" = "Within 1 month";
+"Select the period within which you'd like to view the orders" = "Select the period within which you'd like to view the orders";
+"All" = "All";
+
+//MARK: - Fiter second
+"Enter the address" = "Enter the address";
+
+//MARK: - Filter third
+"Choose a radius" = "Choose a radius";
+
+//MARK: - Filter fourth
+"Choose a content" = "Choose a content";
+
+"If you liked the app, share it with friends via the link" = "If you liked the app, share it with friends via the link";
+
+"Individual"="Individul";
+"Save" = "Save";
+"Real Estate"="Real Estate";
+"Office" = "Office";
+"Deals" = "Deals";
+"Personal Estate" = "Personal Estate";
+"Events" = "Events";
+"Equipment" = "Equipment";
+"Online purchases" = "Online purchases";
+"New verifier" = "New verifier";
+"Items in Shop" = "Items in Shop";
+"Others" = "Others";
+"Verify" = "Verify";
+"Verification of order" = "Verification of order";
+"If you liked the application, please, share it with your friends with a reference link." = "If you liked the application, please, share it with your friends with a reference link.";
+"Save the order" = "Save the order";
+"Select additional means your order to be confirmed" = "Select additional means your order to be confirmed";
+"View with a map" = "View with a map";
+"Ready" = "Ready";
+
+//MARK: - Right menu
+"Menu" = "Menu";
+"My Account" = "My Account";
+"Create new order" = "Create new order";
+"In work" = "In work";
+"My Orders" = "My Orders";
+"Orders to be verified" = "Orders to be verified";
+"Filters" = "Filters";
+"Settings" = "Settings";
+"Wallet" = "Wallet";
+
+//MARK: - Create task
+"Step 1"="Stage 1";
+"Step 2"="Stage 2";
+"Order name"="Name of the Order";
+"Switch label"="Verification of Individual";
+"Last name"="Last Name";
+"First name"="First Name";
+"Middle name"="Middle Name";
+"Subject of order"="Order topic";
+"Date title"="Date & Time for verification";
+"Date"="Date";
+"Time"="Time";
+"From"="From";
+"To"="To";
+"Address"="Address for verification";
+"Address placeholder"="Enter address: city, street, house";
+"Formulate the order fields"="Formulate the order fields";
+"Complete your order by adding the fields that are necessary to complete the tasks"="Complete your order by adding the fields that are necessary to complete the tasks";
+"Add a field"="Add a field";
+
+"Select additional means your order to be confirmed"="Select additional means your order to be confirmed";
+"Confirm by text"="Confirm by text";
+"Confirm by photos"="Confirm by photos";
+"Confirm by video"="Confirm by video";
+
+//MARK: - Create new order
+"Field of the order" = "Field of the order";
+"Type of the order" = "Type of the order";
+"Name of the field" = "Name of the field";
+"Enter the description" = "Enter the description";
+"Select the number of photos" = "Select the number of photos";
+"Describe shortly what is necessary" = "Describe shortly what is necessary";
+
+"Description"="Description";
+"dd.mm.yyyy" = "dd.mm.yyyy";
+
+"Period"="Select the period within which you'd like to view the orders";
+"Map filter"="Put a mark on the map or enter the address, around which you'd like to view the orders";
+"Radius filter"="Select the radius on the map and enter the address, around which you'd like to view the orders";
+"Fill out the fields of order to be verified"="Fill out the fields of order to be verified";
+
+//MARK: - Preview
+"Name of the Order"="Name of the Order";
+"Address"="Address";
+"Name"="Name";
+"Map a route"="Map a route";
+"Order fields"="Order fields";
+"Please, enter the reason of return"="Please, enter the reason of return";

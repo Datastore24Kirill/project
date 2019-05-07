@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderDescriptionTableViewCell" rowHeight="175" id="KGk-i7-Jjw" customClass="OrderDescriptionTableViewCell" customModule="Verifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="174.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuT-IU-8Tp">
+                        <rect key="frame" x="30" y="0.0" width="260" height="174.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Описание" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FC-px-STW">
+                                <rect key="frame" x="0.0" y="20" width="260" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="TJi-2W-RQo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBm-1O-zhc">
+                                <rect key="frame" x="0.0" y="61" width="260" height="113.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Семенов Петро Иванович Семенов Петро Иванович Семенов Петро Иванович Семенов Петро Иванович Семенов Петро Иванович">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="25" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JdO-7e-50e">
+                                <rect key="frame" x="0.0" y="61" width="260" height="113.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JdO-7e-50e" firstAttribute="leading" secondItem="uuT-IU-8Tp" secondAttribute="leading" id="2pN-EQ-uws"/>
+                            <constraint firstAttribute="trailing" secondItem="5FC-px-STW" secondAttribute="trailing" id="8SB-oh-aMS"/>
+                            <constraint firstItem="5FC-px-STW" firstAttribute="top" secondItem="uuT-IU-8Tp" secondAttribute="top" constant="20" id="BG7-Hc-Bct"/>
+                            <constraint firstItem="XBm-1O-zhc" firstAttribute="leading" secondItem="uuT-IU-8Tp" secondAttribute="leading" id="DLA-0s-tHe"/>
+                            <constraint firstAttribute="trailing" secondItem="JdO-7e-50e" secondAttribute="trailing" id="DzS-6V-scC"/>
+                            <constraint firstItem="5FC-px-STW" firstAttribute="leading" secondItem="uuT-IU-8Tp" secondAttribute="leading" id="Lpc-jw-ow7"/>
+                            <constraint firstItem="XBm-1O-zhc" firstAttribute="top" secondItem="5FC-px-STW" secondAttribute="bottom" constant="20" id="OL8-Cp-b04"/>
+                            <constraint firstAttribute="bottom" secondItem="JdO-7e-50e" secondAttribute="bottom" id="XrE-T2-21F"/>
+                            <constraint firstAttribute="bottom" secondItem="XBm-1O-zhc" secondAttribute="bottom" id="hBw-8t-SCt"/>
+                            <constraint firstItem="JdO-7e-50e" firstAttribute="top" secondItem="5FC-px-STW" secondAttribute="bottom" constant="20" id="jw8-T0-tle"/>
+                            <constraint firstAttribute="trailing" secondItem="XBm-1O-zhc" secondAttribute="trailing" id="wPL-Em-IB8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95649260280000004" green="0.9604737163" blue="0.99929827449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="uuT-IU-8Tp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="3Eh-jN-xrx"/>
+                    <constraint firstAttribute="bottom" secondItem="uuT-IU-8Tp" secondAttribute="bottom" id="6v6-IG-lls"/>
+                    <constraint firstItem="uuT-IU-8Tp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qCt-GM-MKF"/>
+                    <constraint firstAttribute="trailing" secondItem="uuT-IU-8Tp" secondAttribute="trailing" constant="30" id="xP2-3N-AP8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orderDescriptionHintLabel" destination="5FC-px-STW" id="tCc-OU-GXW"/>
+                <outlet property="orderDescriptionTextView" destination="JdO-7e-50e" id="Oc3-cv-sxi"/>
+            </connections>
+            <point key="canvasLocation" x="86.400000000000006" y="-7.6461769115442282"/>
+        </tableViewCell>
+    </objects>
+</document>

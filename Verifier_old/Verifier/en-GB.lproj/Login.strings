@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "5ms-ik-sDc"; */
+"5ms-ik-sDc.normalTitle" = "OK";
+
+/* Class = "UITextField"; placeholder = "Your E-Mail"; ObjectID = "EG1-gM-dzG"; */
+"EG1-gM-dzG.placeholder" = "Your E-Mail";
+
+/* Class = "UIButton"; normalTitle = "MORE OF THE WEBSITE"; ObjectID = "KJM-QC-xdk"; */
+"KJM-QC-xdk.normalTitle" = "MORE OF THE WEBSITE";
+
+/* Class = "UILabel"; text = "Login & Registration"; ObjectID = "e6E-jP-ukl"; */
+"e6E-jP-ukl.text" = "Login & Registration";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "k8B-Zq-6Eo"; */
+"k8B-Zq-6Eo.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Your Password"; ObjectID = "lyY-AY-uHv"; */
+"lyY-AY-uHv.placeholder" = "Your Password";
+
+/* Class = "UIButton"; normalTitle = "Registration"; ObjectID = "uI3-ZT-mZ1"; */
+"uI3-ZT-mZ1.normalTitle" = "Registration";

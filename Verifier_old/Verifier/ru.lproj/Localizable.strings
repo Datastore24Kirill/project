@@ -1,0 +1,286 @@
+/* 
+  Localizable.strings
+  Verifier
+
+  Created by iPeople on 07.11.17.
+  Copyright © 2017 Yatseyko Yuriy. All rights reserved.
+*/
+
+"InternetErrorTitle" = "Ошибка";
+"Error fill all fields" = "Необходимо заполнить все поля";
+"Error incorrect qr code" = "Некорректный QR-код";
+"InternetErrorMessage" = "Проверьте подключение к Интернету и повторите попытку.";
+"EmailErrorMessage" = "Недопустимый адрес электронной почты.";
+"PasswordErrorMessage" = "Введите свой пароль, пожалуйста.";
+"ConfirmPasswordErrorMessage" = "Введите свой подтверждающий пароль, пожалуйста.";
+"ConfirmAndPasswordErrorMessage" = "Ваши пароли не совпадают.";
+"Success change personal info" = "Ваши данные изменены успешно";
+"add_photo" = "пожалуйста добавьте фото";
+"Verify info error" = "Для создания заявки необходимо заполнить всю информацию профиля";
+"Error with Location" = "Вы находитесь далеко от места заявки";
+
+//MARK: - ProfileViewController
+"Profile" = "Профиль";
+"Remove photo" = "Удалить фото";
+"Uploading photo" = "Персонализируйте свою учетную запись, загрузив фотографию.";
+
+//MARK: - LoginViewController
+"Login" = "Войти";
+
+
+"Enter your id" = "Введите ваш e-mail или ID";
+"Your Password" = "Ваш пароль";
+"Your E-Mail or ID" = "Ваш E-Mail или ID";
+
+//MARK - Fogot Password
+"FogotPassword.Title" = "Восстановить пароль";
+"FogotPassword.Button" = "Восстановить";
+"FogotPassword.Message.Success" = "Вам выслано письмо с новым паролем";
+"FogotPassword.Message.Error.Server" = "Произошла ошибка, попробуйте позднее";
+"ResetPassword.Button" = "Изменить пароль";
+
+//MARK: - SignUpViewController
+"Next" = "Далее";
+"Fogot Password" = "Забыла свои данные?";
+"Help with sing in" = "Помощь со входом";
+"Login via" = "Войти через";
+"Do not have account" = "У вас нет аккаунта?";
+"Sign Up" = "Зарегистрироваться.";
+"through" = "Через";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"QR-code" = "QR-code";
+"Registration Info" = "Зарегистрируйтесь, чтобы узнать максимум \n возможностей приложения Verifire";
+"Continue" = "Далее";
+
+"Registration" = "Регистрация";
+"Personal data" = "Введите данные";
+"ID data" = "Паспортные данные";
+"Address" = "Введите адрес";
+"Avatar" = "Аватар";
+
+"Email" = "Email";
+"Password" = "Пароль";
+"Repeat password" = "Повторите пароль";
+"RepeatPassword" = "Повторите пароль";
+
+"First name" = "Имя";
+"Last name" = "Фамилия";
+"Phone" = "Телефон";
+"Birth date" = "Дата рождения";
+
+"Work Place" = "Место работы";
+"Specialization" = "Профессия";
+"Nationality" = "Национальность";
+"Passport series" = "Серия паспорта";
+"Passport number" = "Номер паспорта";
+
+"Passport issue" = "Кем выдан";
+"Passport issue date" = "Дата выдачи";
+"Passport issue code" = "Код подразделения";
+
+"Address Type" = "Тип адреса";
+"Country" = "Страна";
+"Region" = "Регион";
+"City" = "Город";
+"Street" = "Улица";
+"House" = "Дом";
+"Apartment" = "Квартира";
+"ZIP code" = "Индекс";
+
+"Enter your promo code"="Введите ваш промокод";
+"Enter promo code"="Введите промокод";
+"Please enter 8 symbols"="Введите 8 символов";
+
+"If you have promo code, please enter"="Если у вас есть промокод, введите его";
+"Promo is empty. Do you want to continue?"="Промо код не введен, продолжить регистрацию без него?";
+"Promo isn't correct"="Не корректный промо код";
+
+
+//MARK: - QRCodeViewController
+"QR enter" = "Если у вас есть QR-код, \n просканируйте его для входа \n в приложения";
+"Scan" = "Сканировать";
+"Back" = "Назад";
+
+//MARK: - DashboardDetailViewController
+"START" = "ВЗЯТЬ В РАБОТУ";
+
+//MARK: - SideMenuViewController
+"Tasks" = "Заявки";
+
+//MARK: - BaseDetailTaskViewController
+"Record a Video" = "Записать видео";
+"SEND" = "ЗАВЕРШИТЬ";
+"AlertTaskIsDone" = "Заявка успешно выполнена и отправлена на подтверждение заказчику";
+"AlertOrderVerifier" = "Вы находитесь вне зоны выполнения заявки";
+
+//MARK: - PopUpWindowViewController
+"To Vote" = "к рейтингу";
+
+//MARK: - PickerViewViewController
+"Choose type address" = "Выберите тип адреса";
+"Choose the country" = "Выберите страну";
+
+//MARK: - DatePickerViewController
+"Choose a date" = "Выберите дату";
+
+//MARK: - Other
+"Currency" = "$";
+"Take a Photo" = "Сделать фото";
+"Cancel" = "Отмена";
+"Approve" = "Одобрить";
+"APPROVE" = "ПОДТВЕРЖДЕНО";
+"Done" = "Готово";
+"Choose item"="Выберите пункт";
+"ACTIVE" = "В РАБОТЕ";
+"CREATE" = "НОВАЯ";
+"RETURNED" = "ВОЗВРАЩЕНА";
+
+"AppLanguage" = "ru";
+"TitlePopUp" = "Заявка успешно выполнена и отправлена на подтверждение заказчику!";
+"DONE" = "ГОТОВО";
+"Details" = "Подробнее";
+"Fill this field..." = "Заполните это поле...";
+"You’ve got" = "Получено";
+"Hash" = "Хэш";
+"LoginErrorTitle" = "Ошибка";
+"LoginErrorDescription" = "Неверный логин или пароль";
+"TaskErrorTitle" = "Ошибка";
+"TaskErrorDescription" = "Все поля должны быть заполнены";
+"Log Out" = "Выйти";
+"No tasks" = "Нет заявок для выполнения.";
+"No tasks done" = "Нет выполненных заявок.";
+"MORE OF THE WEBSITE" = "ПОДРОБНЕЕ НА САЙТЕ";
+
+//MARK: - Settings
+"Settings nav" = "Настройки";
+"Select the language" = "Выберите язык";
+"Save"="Сохранить";
+"Address of Etherium wallet"="Адрес этериум кошелька";
+"Enter the address"="Введите адрес";
+"Balance"="Баланс";
+"Withdraw money"="Вывести средства";
+"Your promocode"="Ваш промокод";
+"Share your promocode with your friend to get bonus tokens"="Поделись с другом промо-кодом и получай бонусные токены";
+"Share the application"="Поделиться приложением";
+"If you liked the application, please, share it with your friends with a reference link."="Если приложение вам понравилось, то поделитесь им с друзьями при помощи ссылки. ";
+"The size of a video should not be bigger than 50 MB."="Размер видео не должен превышать 50 мб.";
+"A video should not last longer than 1 minute."="Продолжительность видео не должна быть больше 1 мин.";
+"A video should not last longer than 1 minute and be bigger than 50 MB."="Продолжительность видео не должна быть больше 1 минути и не превышать 50 мб.";
+"Feedback"="Обратная связь";
+"Subject of your message"="Тема ващего сообщения";
+"Error" = "Ошибка";
+
+"Subject 1"="Ошибка в работе приложении";
+"Subject 2"="Ошибка отправки заявки";
+"Subject 3"="Ошибка выполнения заявки";
+"Subject 4"="Начисление токенов";
+"Subject 5"="Пожелания по работе с приложением";
+
+"Thank you for your feedback"="Спасибо за отзыв";
+
+//MARK: - Filters
+"By time of execution" = "По времени выполнения";
+"By address" = "По адресу";
+"By radius" = "По радиусу";
+"By contents" = "По содержанию";
+
+//MARK: - Filter first
+"Range of order execution" = "Диапазон выполнения заявки";
+"Today" = "Сегодня";
+"Tomorrow" = "Завтра";
+"Within 1 week" = "В течении недели";
+"Within 1 month" = "В течении месяца";
+"Select the period within which you'd like to view the orders" = "Выбирите период, за который вы хотите увидеть заявки";
+"All" = "Все";
+
+//MARK: - FIlter second
+"Enter the address" = "Введите адрес";
+
+//MARK: - Filter third
+"Choose a radius" = "Выберите радиус";
+
+//MARK: - Filter fourth
+"Choose a content" = "Выберите содержание";
+
+"If you liked the app, share it with friends via the link" = "Если приложение вам понравилось, поделитесь им с друзьями при помощи ссылки";
+
+"Individual"="Физическое лицо";
+"Save" = "Сохранить";
+"Real Estate"="Недвижимость";
+"Office" = "Офис";
+"Deals" = "Сделики";
+"Personal Estate" = "Движимое имущество";
+"Events" = "Собития";
+"Equipment" = "Оборудование";
+"Online purchases" = "Интернет покупки";
+"New verifier" = "Новый верифаер";
+"Items in Shop" = "Товар в магазине";
+"Others" = "Другое";
+"Verify" = "Верифицировать";
+"Verification of order" = "Верификация заявки";
+"If you liked the application, please, share it with your friends with a reference link." = "Если приложение вам понравилось, то поделиьесь им с друзьями при помощи ссылки.";
+"Save the order" = "Сохранить заявку";
+"Select additional means your order to be confirmed" = "Выбирите какими дополнительными материалами вы хотите, чтобы подтвердили вашу заявку";
+"View with a map" = "Посмотреть на карте";
+"Ready" = "Готов";
+
+//MARK: - Right menu
+"Menu" = "Меню";
+"My Account" = "Личный кабинет";
+"Create new order" = "Создать заявку";
+"In work" = "В работе";
+"My Orders" = "Мои заявки";
+"Orders to be verified" = "Заявки на верификацию";
+"Filters" = "Фильтры";
+"Settings" = "Настройки";
+"Wallet" = "Кошелек";
+
+//MARK: - Create task
+"Step 1"="Этап 1";
+"Step 2"="Этап 2";
+"Order name"="Название заявки";
+"Switch label"="Верификация физического лица";
+"Last name"="Фамилия";
+"First name"="Имя";
+"Middle name"="Отчество";
+"Subject of order"="Тема заявки";
+"Date title"="Дата и время верификации";
+"Date"="Дата";
+"Time"="Время";
+"From"="С";
+"To"="По";
+"Address"="Адрес проверки";
+"Address placeholder"="Введите адрес: город, улица, дом";
+"Formulate the order fields"="Сформулируйте поля заявки";
+"Complete your order by adding the fields that are necessary to complete the tasks"="Дополните свою заявку, добавив в нее те поля, которые нужны для выполнения задания";
+"Add a field"="Добавить поле";
+
+"Select additional means your order to be confirmed"="Выбирите какими дополнительными дополнительными материалами вы хотите, чтобы подтвердили вашу заявку";
+"Confirm by text"="Подтвердить текстом";
+"Confirm by photos"="Подтвердить фотографиями";
+"Confirm by video"="Подтвердить видео";
+
+//MARK: - Create new order
+"Field of the order" = "Поле заявки";
+"Type of the order" = "Тип поля";
+"Name of the field" = "Название поля";
+"Enter the description" = "Введите описание";
+"Select the number of photos" = "Выберите кол-во фотографий";
+"Describe shortly what is necessary" = "Кратко опишите, что необходимо";
+
+"Description"="Описание";
+"dd.mm.yyyy" = "дд.мм.гггг";
+
+"Period"="Выбирите период, за который вы хотите увидеть заявки";
+"Map filter"="Поставьте точку на катре или введите адрес, вокруг которого вы хотите увидеть заявки";
+"Radius filter"="Выберите радиус, в котором вы хотите видеть заявки";
+"Fill out the fields of order to be verified"="Заполните поля заявки для верификации";
+
+//MARK: - Preview
+"Name of the Order"="Название заявки";
+"Address"="Адрес";
+"Name"="Имя";
+"Map a route"="Проложить маршрут";
+"Order fields"="Поля заявки";
+"Please, enter the reason of return"="Введите причину отказа";

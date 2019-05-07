@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "5ms-ik-sDc"; */
+"5ms-ik-sDc.normalTitle" = "OK";
+
+/* Class = "UITextField"; placeholder = "Your Password"; ObjectID = "8cr-Zw-eI0"; */
+"8cr-Zw-eI0.placeholder" = "Ваш пароль";
+
+/* Class = "UITextField"; text = "123"; ObjectID = "8cr-Zw-eI0"; */
+"8cr-Zw-eI0.text" = "123";
+
+/* Class = "UITextField"; placeholder = "Your E-Mail or ID"; ObjectID = "KL3-Fo-k5H"; */
+"KL3-Fo-k5H.placeholder" = "Ваш E-Mail or ID";
+
+/* Class = "UITextField"; text = "6309845120"; ObjectID = "KL3-Fo-k5H"; */
+"KL3-Fo-k5H.text" = "6309845120";
+
+/* Class = "UILabel"; text = "Enter your ID or Login"; ObjectID = "e6E-jP-ukl"; */
+"e6E-jP-ukl.text" = "Введите ваш e-mail или ID";

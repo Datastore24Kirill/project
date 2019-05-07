@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "VERIFIER"; ObjectID = "9VF-Hp-Kk8"; */
+"9VF-Hp-Kk8.text" = "VERIFIER";
+
+/* Class = "UILabel"; text = "Grigory Neuman"; ObjectID = "CpP-Cj-3zj"; */
+"CpP-Cj-3zj.text" = "-";
+
+/* Class = "UILabel"; text = "VRF"; ObjectID = "FoE-9Z-6Ga"; */
+"FoE-9Z-6Ga.text" = "VET";
+
+/* Class = "UILabel"; text = "Moscow"; ObjectID = "J40-uo-Qke"; */
+"J40-uo-Qke.text" = "";
+
+/* Class = "UILabel"; text = "Verify the verifier"; ObjectID = "K5E-QA-H41"; */
+"K5E-QA-H41.text" = "Verify the verifier";
+
+/* Class = "UILabel"; text = "1034"; ObjectID = "Tpf-o8-WxM"; */
+"Tpf-o8-WxM.text" = "0";
+
+/* Class = "UILabel"; text = "235"; ObjectID = "hCL-MO-hRF"; */
+"hCL-MO-hRF.text" = "0";
+
+/* Class = "UILabel"; text = "ID: 1234567890"; ObjectID = "i08-I2-kNs"; */
+"i08-I2-kNs.text" = "ID: 0";
+
+/* Class = "UILabel"; text = "VRF"; ObjectID = "qQZ-2w-Ofd"; */
+"qQZ-2w-Ofd.text" = "VET";
+
+/* Class = "UILabel"; text = "675"; ObjectID = "u3D-tQ-WJw"; */
+"u3D-tQ-WJw.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "ACTIV"; ObjectID = "yvG-RH-8Dk"; */
+"yvG-RH-8Dk.normalTitle" = "ACTIVE";

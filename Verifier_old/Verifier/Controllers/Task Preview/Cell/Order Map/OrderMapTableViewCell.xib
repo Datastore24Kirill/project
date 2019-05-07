@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderMapTableViewCell" rowHeight="615" id="KGk-i7-Jjw" customClass="OrderMapTableViewCell" customModule="Verifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="512" height="615"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="512" height="614.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUf-AM-Kqb" customClass="ShadowView" customModule="Verifier" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="29.5" width="412" height="309"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="PUf-AM-Kqb" secondAttribute="height" multiplier="4:3" id="atF-bV-Bbg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mQ-i3-2oH">
+                        <rect key="frame" x="181" y="443" width="150" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="wbT-fX-TcN"/>
+                        </constraints>
+                        <state key="normal" title="Проложить маршрут">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="didPressBuildARouteButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZfF-ka-Gvb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.95649260280000004" green="0.9604737163" blue="0.99929827449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PUf-AM-Kqb" secondAttribute="trailing" constant="30" id="8ut-oz-kvR"/>
+                    <constraint firstItem="PUf-AM-Kqb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="D1x-Zr-nm2"/>
+                    <constraint firstItem="1mQ-i3-2oH" firstAttribute="top" secondItem="PUf-AM-Kqb" secondAttribute="bottom" constant="40" id="HsA-yI-ns9"/>
+                    <constraint firstItem="1mQ-i3-2oH" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="IKM-Mw-DJb"/>
+                    <constraint firstAttribute="bottom" secondItem="1mQ-i3-2oH" secondAttribute="bottom" constant="30" id="SoP-cg-ZDf"/>
+                    <constraint firstItem="PUf-AM-Kqb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="bKW-MM-aRQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mapContainerView" destination="PUf-AM-Kqb" id="yBz-tZ-oCL"/>
+                <outlet property="routeButton" destination="1mQ-i3-2oH" id="GUc-cM-eDG"/>
+            </connections>
+            <point key="canvasLocation" x="125" y="-27.5"/>
+        </tableViewCell>
+    </objects>
+</document>

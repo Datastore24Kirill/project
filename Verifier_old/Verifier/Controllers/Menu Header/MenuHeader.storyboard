@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Header View Controller-->
+        <scene sceneID="lJt-kP-Fhz">
+            <objects>
+                <viewController storyboardIdentifier="MenuHeaderVC" id="1jo-he-qPt" customClass="MenuHeaderViewController" customModule="Verifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kt0-1C-vNE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgv-N8-lVh" userLabel="Header View">
+                                <rect key="frame" x="0.0" y="44" width="375" height="129"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERIFIER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6f-9C-dCO">
+                                        <rect key="frame" x="51" y="66.666666666666671" width="273" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="mMn-La-iRy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jb5-mb-gnA">
+                                        <rect key="frame" x="51" y="80.666666666666671" width="273" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="339-8w-n0V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Combined Shape 2" translatesAutoresizingMaskIntoConstraints="NO" id="ZU2-fA-2Uw">
+                                        <rect key="frame" x="202" y="-8" width="229" height="181"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="229" id="43G-kv-REP"/>
+                                            <constraint firstAttribute="height" constant="181" id="ZW2-Mj-qgM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9n-o9-GCa">
+                                        <rect key="frame" x="324" y="59.666666666666671" width="46" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="asU-6M-zid"/>
+                                            <constraint firstAttribute="height" constant="46" id="y27-wD-mKC"/>
+                                        </constraints>
+                                        <state key="normal" image="greenMenuIcon"/>
+                                        <connections>
+                                            <action selector="didPressMenuButton:" destination="1jo-he-qPt" eventType="touchUpInside" id="wGq-uF-1QQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.25882352939999997" green="0.27450980390000002" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="m6f-9C-dCO" firstAttribute="centerY" secondItem="zgv-N8-lVh" secondAttribute="centerY" constant="18" id="2AX-pz-qHJ"/>
+                                    <constraint firstItem="j9n-o9-GCa" firstAttribute="leading" secondItem="m6f-9C-dCO" secondAttribute="trailing" id="6Dn-jo-2mg"/>
+                                    <constraint firstItem="j9n-o9-GCa" firstAttribute="centerY" secondItem="zgv-N8-lVh" secondAttribute="centerY" constant="18" id="D5L-5S-dUR"/>
+                                    <constraint firstItem="Jb5-mb-gnA" firstAttribute="top" secondItem="m6f-9C-dCO" secondAttribute="bottom" constant="-18" id="FpX-pK-MFr"/>
+                                    <constraint firstItem="Jb5-mb-gnA" firstAttribute="leading" secondItem="m6f-9C-dCO" secondAttribute="leading" id="OSB-si-Khk"/>
+                                    <constraint firstAttribute="height" constant="129" id="Yjb-E0-L9F"/>
+                                    <constraint firstAttribute="trailing" secondItem="j9n-o9-GCa" secondAttribute="trailing" constant="5" id="a1O-PF-z5t"/>
+                                    <constraint firstItem="Jb5-mb-gnA" firstAttribute="centerX" secondItem="m6f-9C-dCO" secondAttribute="centerX" id="dyi-R5-xzN"/>
+                                    <constraint firstItem="ZU2-fA-2Uw" firstAttribute="top" secondItem="zgv-N8-lVh" secondAttribute="top" constant="-8" id="ePO-UZ-oAC"/>
+                                    <constraint firstItem="m6f-9C-dCO" firstAttribute="leading" secondItem="zgv-N8-lVh" secondAttribute="leading" constant="51" id="hjY-L2-qTm"/>
+                                    <constraint firstItem="Jb5-mb-gnA" firstAttribute="trailing" secondItem="m6f-9C-dCO" secondAttribute="trailing" id="q9C-Xj-x5h"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZU2-fA-2Uw" secondAttribute="trailing" constant="-56" id="sha-ic-sSw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="0.25882352939999997" green="0.27450980390000002" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="0.25882352939999997" green="0.27450980390000002" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zgv-N8-lVh" firstAttribute="trailing" secondItem="ClZ-wE-vcB" secondAttribute="trailing" id="8vn-J3-8NF"/>
+                            <constraint firstItem="zgv-N8-lVh" firstAttribute="top" secondItem="ClZ-wE-vcB" secondAttribute="top" id="F57-0b-COh"/>
+                            <constraint firstItem="zgv-N8-lVh" firstAttribute="leading" secondItem="ClZ-wE-vcB" secondAttribute="leading" id="mMS-Mm-EgB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ClZ-wE-vcB"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="129"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="Jb5-mb-gnA" id="BGi-OP-WtR"/>
+                        <outlet property="titleLabel" destination="m6f-9C-dCO" id="GnE-HE-Na6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hmu-3F-e5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800.79999999999995" y="-382.38916256157637"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Combined Shape 2" width="127" height="100"/>
+        <image name="greenMenuIcon" width="21" height="14"/>
+    </resources>
+</document>

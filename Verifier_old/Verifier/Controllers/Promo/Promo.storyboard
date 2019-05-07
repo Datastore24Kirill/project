@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Promo View Controller-->
+        <scene sceneID="658-vJ-f74">
+            <objects>
+                <viewController storyboardIdentifier="PromoVC" automaticallyAdjustsScrollViewInsets="NO" id="MkT-9b-6qt" customClass="PromoViewController" customModule="Verifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iVe-vZ-8eO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sx9-Tx-YAA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="pqr-SV-qvA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaM-7A-NOz" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PI3-QM-WbL" userLabel="Top Space View">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="40.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaD-Gk-ENS" userLabel="Next Button">
+                                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="SX4-L6-Pf2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="ДАЛЕЕ">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="nextButtonAction:" destination="MkT-9b-6qt" eventType="touchUpInside" id="C57-Tn-lzi"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jal-yz-EKt" customClass="YouTubePlayerView" customModule="YouTubePlayer">
+                                                <rect key="frame" x="15" y="214" width="346" height="183"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="183" id="8uZ-XK-Gfd"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Это займет не более 2-х минут" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMe-rY-i8i">
+                                                <rect key="frame" x="15" y="405" width="346" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="67" id="nQo-0v-m7A"/>
+                                                    <constraint firstAttribute="width" constant="346" id="zSk-e7-5N2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Посмотрите ролик и узнайте как проходит работа в Verifier" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-z1-f6n">
+                                                <rect key="frame" x="15" y="66" width="346" height="96"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="96" id="K9e-BD-hOa"/>
+                                                    <constraint firstAttribute="width" constant="346" id="LdX-PC-N75"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="23"/>
+                                                <color key="textColor" red="0.3921568627" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="PI3-QM-WbL" firstAttribute="leading" secondItem="kaM-7A-NOz" secondAttribute="leading" id="4dG-Vl-Q6v"/>
+                                            <constraint firstItem="vaD-Gk-ENS" firstAttribute="leading" secondItem="kaM-7A-NOz" secondAttribute="leading" id="5Tr-QE-L78"/>
+                                            <constraint firstItem="jal-yz-EKt" firstAttribute="top" secondItem="ebo-z1-f6n" secondAttribute="bottom" constant="52" id="Gwj-SI-sXi"/>
+                                            <constraint firstItem="eMe-rY-i8i" firstAttribute="top" secondItem="jal-yz-EKt" secondAttribute="bottom" constant="8" id="JPk-aj-VRn"/>
+                                            <constraint firstAttribute="trailing" secondItem="vaD-Gk-ENS" secondAttribute="trailing" id="JoG-SA-FZ2"/>
+                                            <constraint firstItem="PI3-QM-WbL" firstAttribute="top" secondItem="kaM-7A-NOz" secondAttribute="top" id="VWJ-cQ-GU1"/>
+                                            <constraint firstAttribute="bottom" secondItem="vaD-Gk-ENS" secondAttribute="bottom" id="ehv-bG-E0J"/>
+                                            <constraint firstAttribute="trailing" secondItem="PI3-QM-WbL" secondAttribute="trailing" id="zXQ-bn-Xeg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kaM-7A-NOz" firstAttribute="centerX" secondItem="pqr-SV-qvA" secondAttribute="centerX" id="9mJ-f5-MLM"/>
+                                    <constraint firstItem="kaM-7A-NOz" firstAttribute="leading" secondItem="pqr-SV-qvA" secondAttribute="leading" id="DFz-FI-6MX"/>
+                                    <constraint firstItem="eMe-rY-i8i" firstAttribute="leading" secondItem="pqr-SV-qvA" secondAttribute="leading" constant="15" id="JC3-jq-Yhg"/>
+                                    <constraint firstAttribute="bottom" secondItem="kaM-7A-NOz" secondAttribute="bottom" priority="250" id="MQq-mr-xKm"/>
+                                    <constraint firstAttribute="trailing" secondItem="eMe-rY-i8i" secondAttribute="trailing" constant="14" id="RXo-Eg-hMt"/>
+                                    <constraint firstItem="ebo-z1-f6n" firstAttribute="top" secondItem="pqr-SV-qvA" secondAttribute="top" constant="66" id="VfV-Ii-8Lb"/>
+                                    <constraint firstItem="ebo-z1-f6n" firstAttribute="leading" secondItem="pqr-SV-qvA" secondAttribute="leading" constant="15" id="ZhS-Oy-Oay"/>
+                                    <constraint firstItem="jal-yz-EKt" firstAttribute="leading" secondItem="pqr-SV-qvA" secondAttribute="leading" constant="15" id="efx-8i-BGj"/>
+                                    <constraint firstAttribute="trailing" secondItem="kaM-7A-NOz" secondAttribute="trailing" id="h9J-1h-12c"/>
+                                    <constraint firstItem="kaM-7A-NOz" firstAttribute="top" secondItem="pqr-SV-qvA" secondAttribute="top" id="hwp-Cs-Z7o"/>
+                                    <constraint firstItem="kaM-7A-NOz" firstAttribute="centerY" secondItem="pqr-SV-qvA" secondAttribute="centerY" priority="250" id="um5-0i-ooK"/>
+                                    <constraint firstAttribute="trailing" secondItem="jal-yz-EKt" secondAttribute="trailing" constant="14" id="zDn-rx-cjB"/>
+                                    <constraint firstAttribute="trailing" secondItem="ebo-z1-f6n" secondAttribute="trailing" constant="14" id="zMk-xX-cbQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sx9-Tx-YAA" secondAttribute="trailing" id="0re-L4-XdS"/>
+                            <constraint firstItem="pqr-SV-qvA" firstAttribute="top" secondItem="iVe-vZ-8eO" secondAttribute="top" id="7fy-Ne-h09"/>
+                            <constraint firstItem="sx9-Tx-YAA" firstAttribute="top" secondItem="iVe-vZ-8eO" secondAttribute="top" id="9dV-qm-2RA"/>
+                            <constraint firstItem="PI3-QM-WbL" firstAttribute="height" secondItem="iVe-vZ-8eO" secondAttribute="height" multiplier="0.0607" id="Bww-J4-AKY"/>
+                            <constraint firstItem="sx9-Tx-YAA" firstAttribute="leading" secondItem="iVe-vZ-8eO" secondAttribute="leading" id="QGT-6l-fZb"/>
+                            <constraint firstAttribute="trailing" secondItem="pqr-SV-qvA" secondAttribute="trailing" id="gfz-61-tPW"/>
+                            <constraint firstAttribute="bottom" secondItem="sx9-Tx-YAA" secondAttribute="bottom" id="i3H-tl-AwL"/>
+                            <constraint firstItem="pqr-SV-qvA" firstAttribute="leading" secondItem="iVe-vZ-8eO" secondAttribute="leading" id="jxX-Rn-gGu"/>
+                            <constraint firstItem="pqr-SV-qvA" firstAttribute="bottom" secondItem="iVe-vZ-8eO" secondAttribute="bottom" id="qmz-zL-GBj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hvi-AO-shV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fZT-lQ-57f"/>
+                    <connections>
+                        <outlet property="nextButton" destination="vaD-Gk-ENS" id="NdT-5W-crV"/>
+                        <outlet property="youTubePlayer" destination="jal-yz-EKt" id="xHH-0t-tiY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dhF-ip-4Gw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208.80000000000001" y="60.719640179910051"/>
+        </scene>
+    </scenes>
+</document>

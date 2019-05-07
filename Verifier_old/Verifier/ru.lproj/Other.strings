@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6kp-0W-V2O"; */
+"6kp-0W-V2O.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "The task is done!\nYour transaction was succesfull.\nHash: e14a47b9"; ObjectID = "DBE-xl-7Fu"; */
+"DBE-xl-7Fu.text" = "Задание выполнено!\nТранзакция успешно проведена.\nХэш:";
+
+/* Class = "UILabel"; text = "to Vote"; ObjectID = "FSe-jy-7Z8"; */
+"FSe-jy-7Z8.text" = "к рейтингу";
+
+/* Class = "UILabel"; text = "VRF"; ObjectID = "aSv-a4-OZx"; */
+"aSv-a4-OZx.text" = "VRT";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oKj-aJ-ZQE"; */
+"oKj-aJ-ZQE.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "s98-Fq-kAq"; */
+"s98-Fq-kAq.normalTitle" = "OK";

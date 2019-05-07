@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "VERIFIER"; ObjectID = "35d-rZ-wCL"; */
+"35d-rZ-wCL.text" = "VERIFIER";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "4tn-n5-LVw"; */
+"4tn-n5-LVw.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "ACTIV"; ObjectID = "9PC-8U-sfd"; */
+"9PC-8U-sfd.text" = "ACTIVE";
+
+/* Class = "UILabel"; text = "In this field you should write your own name."; ObjectID = "9Sr-rT-glS"; */
+"9Sr-rT-glS.text" = "In this field you should write your own name.";
+
+/* Class = "UILabel"; text = "Take a Photo"; ObjectID = "APZ-5G-MEf"; */
+"APZ-5G-MEf.text" = "Take a Photo";
+
+/* Class = "UILabel"; text = "Vote for verifier"; ObjectID = "BeW-VV-Xps"; */
+"BeW-VV-Xps.text" = "Vote for verifier";
+
+/* Class = "UILabel"; text = "Selfie"; ObjectID = "Bt5-uE-HkH"; */
+"Bt5-uE-HkH.text" = "Selfie";
+
+/* Class = "UILabel"; text = "Take a Photo"; ObjectID = "UFm-EM-zBm"; */
+"UFm-EM-zBm.text" = "Take a Photo";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "bTf-Cs-ABd"; */
+"bTf-Cs-ABd.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Verify the verifier"; ObjectID = "iqJ-Sx-ked"; */
+"iqJ-Sx-ked.text" = "Verify the verifier";
+
+/* Class = "UILabel"; text = "VERIFIER"; ObjectID = "j7Y-Kk-1ea"; */
+"j7Y-Kk-1ea.text" = "VERIFIER";
+
+/* Class = "UILabel"; text = "In this field you should write your own name."; ObjectID = "r8z-4x-Abr"; */
+"r8z-4x-Abr.text" = "In this field you should write your own name.";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "tpO-bT-S4H"; */
+"tpO-bT-S4H.normalTitle" = "SEND";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "yj1-We-DSA"; */
+"yj1-We-DSA.normalTitle" = "SEND";

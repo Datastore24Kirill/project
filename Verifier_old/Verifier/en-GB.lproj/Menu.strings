@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "VRF"; ObjectID = "46r-mG-G74"; */
+"46r-mG-G74.text" = "VRF";
+
+/* Class = "UILabel"; text = "Заявки на верификацию"; ObjectID = "8Gh-1o-SnR"; */
+"8Gh-1o-SnR.text" = "Заявки на верификацию";
+
+/* Class = "UILabel"; text = "Мои заявки"; ObjectID = "CJr-UR-Ndq"; */
+"CJr-UR-Ndq.text" = "Мои заявки";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "Fak-6V-aVh"; */
+"Fak-6V-aVh.text" = "$";
+
+/* Class = "UILabel"; text = "Verify the verifier"; ObjectID = "Fdd-Or-GtY"; */
+"Fdd-Or-GtY.text" = "Verify the verifier";
+
+/* Class = "UILabel"; text = "Настройки"; ObjectID = "Ieo-MV-LZa"; */
+"Ieo-MV-LZa.text" = "Настройки";
+
+/* Class = "UILabel"; text = "Фильтры"; ObjectID = "Lpq-FD-D0x"; */
+"Lpq-FD-D0x.text" = "Фильтры";
+
+/* Class = "UILabel"; text = "ACTIVE"; ObjectID = "MZ2-TQ-8cY"; */
+"MZ2-TQ-8cY.text" = "ACTIVE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PVP-5N-iNp"; */
+"PVP-5N-iNp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "675"; ObjectID = "UlU-Db-h7Y"; */
+"UlU-Db-h7Y.text" = "675";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "VVB-5l-r7W"; */
+"VVB-5l-r7W.text" = "$";
+
+/* Class = "UILabel"; text = "Кошелек"; ObjectID = "Xaw-de-Kny"; */
+"Xaw-de-Kny.text" = "Кошелек";
+
+/* Class = "UILabel"; text = "Tasks"; ObjectID = "YFN-Sk-KVC"; */
+"YFN-Sk-KVC.text" = "Tasks";
+
+/* Class = "UILabel"; text = "Личный кабинет"; ObjectID = "e2o-xl-o06"; */
+"e2o-xl-o06.text" = "Личный кабинет";
+
+/* Class = "UILabel"; text = "DONE"; ObjectID = "e8P-ok-bi1"; */
+"e8P-ok-bi1.text" = "DONE";
+
+/* Class = "UILabel"; text = "Меню"; ObjectID = "hFj-6J-Rtd"; */
+"hFj-6J-Rtd.text" = "Меню";
+
+/* Class = "UILabel"; text = "No tasks"; ObjectID = "hKH-o6-RC5"; */
+"hKH-o6-RC5.text" = "No tasks";
+
+/* Class = "UILabel"; text = "VERIFIER"; ObjectID = "hhn-bG-gNy"; */
+"hhn-bG-gNy.text" = "VERIFIER";
+
+/* Class = "UILabel"; text = "Создать заявку"; ObjectID = "l8v-BZ-PQp"; */
+"l8v-BZ-PQp.text" = "Создать заявку";
+
+/* Class = "UILabel"; text = "675"; ObjectID = "s75-YF-T38"; */
+"s75-YF-T38.text" = "675";
+
+/* Class = "UILabel"; text = "Verify the verifier"; ObjectID = "xe7-24-CsC"; */
+"xe7-24-CsC.text" = "Verify the verifier";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "yDe-1a-7GE"; */
+"yDe-1a-7GE.text" = "$";

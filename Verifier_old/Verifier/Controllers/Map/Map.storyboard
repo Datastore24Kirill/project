@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Delegate-->
+        <scene sceneID="ate-Jf-Nlb">
+            <objects>
+                <viewController storyboardIdentifier="TaskMapVC" id="mMy-xp-spl" customClass="TaskMapViewController" customModule="Verifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MeI-GJ-Xej">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="248"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tcN-5e-FtM" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="248"/>
+                                <color key="backgroundColor" red="0.9297143816947937" green="0.91822677850723267" blue="0.88469815254211426" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="mMy-xp-spl" id="OvR-Rr-mz9"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v4s-GC-hNP" firstAttribute="bottom" secondItem="tcN-5e-FtM" secondAttribute="bottom" id="KCQ-Wd-ebc"/>
+                            <constraint firstItem="tcN-5e-FtM" firstAttribute="leading" secondItem="v4s-GC-hNP" secondAttribute="leading" id="e3t-Er-OZT"/>
+                            <constraint firstItem="v4s-GC-hNP" firstAttribute="trailing" secondItem="tcN-5e-FtM" secondAttribute="trailing" id="e5E-eS-jYh"/>
+                            <constraint firstItem="tcN-5e-FtM" firstAttribute="top" secondItem="v4s-GC-hNP" secondAttribute="top" id="mpJ-Xs-Qzn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v4s-GC-hNP"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <size key="freeformSize" width="375" height="248"/>
+                    <connections>
+                        <outlet property="mapView" destination="tcN-5e-FtM" id="jDn-WY-23Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Blc-sY-sSr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510" y="145"/>
+        </scene>
+        <!--Delegate-->
+        <scene sceneID="ryV-lH-w15">
+            <objects>
+                <viewController storyboardIdentifier="FilterMapVC" id="pnz-2F-mri" customClass="FilterMapViewController" customModule="Verifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wDM-w1-Q9i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="248"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRw-CK-m9B" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="248"/>
+                                <color key="backgroundColor" red="0.92971438169999998" green="0.91822677850000001" blue="0.88469815249999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="pnz-2F-mri" id="1UP-Gc-aGQ"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VRw-CK-m9B" firstAttribute="leading" secondItem="c2Y-Z5-fo9" secondAttribute="leading" id="7kU-zL-Q2N"/>
+                            <constraint firstItem="c2Y-Z5-fo9" firstAttribute="bottom" secondItem="VRw-CK-m9B" secondAttribute="bottom" id="Abw-gW-enV"/>
+                            <constraint firstItem="c2Y-Z5-fo9" firstAttribute="trailing" secondItem="VRw-CK-m9B" secondAttribute="trailing" id="Uxf-kh-VRh"/>
+                            <constraint firstItem="VRw-CK-m9B" firstAttribute="top" secondItem="c2Y-Z5-fo9" secondAttribute="top" id="rX1-TH-Qar"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c2Y-Z5-fo9"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <size key="freeformSize" width="375" height="248"/>
+                    <connections>
+                        <outlet property="mapView" destination="VRw-CK-m9B" id="CGV-3b-HXN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kMI-QM-tsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="145"/>
+        </scene>
+    </scenes>
+</document>
