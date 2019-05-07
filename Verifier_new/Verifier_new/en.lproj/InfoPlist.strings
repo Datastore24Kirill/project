@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  Verifier_new
+
+  Created by Кирилл Ковыршин on 26/02/2019.
+  Copyright © 2019 Verifier. All rights reserved.
+*/
+
+NSCameraUsageDescription = "Used for uploading photos";
+NSMicrophoneUsageDescription = "Need microphone access for uploading videos";
+NSLocationAlwaysandWhenInUseUsageDescription = "We use geolocation to display the tasks near you";
+NSLocationAlwaysUsageDescription = "We use geolocation to display the tasks near you";
+NSLocationUsageDescription = "We use geolocation to display the tasks near you";
+NSLocationWhenInUseUsageDescription = "We use geolocation to display the tasks near you";
+NSMotionUsageDescription = "Verifier needs access to motion data to display steps.";
+NSPhotoLibraryUsageDescription = "Used for uploading photos for task";
+NSAppleMusicUsageDescription = "Used for uploading photos";

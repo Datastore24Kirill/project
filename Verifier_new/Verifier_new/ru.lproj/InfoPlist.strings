@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  Verifier_new
+
+  Created by Кирилл Ковыршин on 26/02/2019.
+  Copyright © 2019 Verifier. All rights reserved.
+*/
+
+NSCameraUsageDescription = "Камера используется для загрузки фото или видео в задание";
+NSMicrophoneUsageDescription = "Доступ к микрофону используется для записи видео к заданию";
+NSLocationAlwaysandWhenInUseUsageDescription = "Приложение использует геолокацию для отображения заданий рядом с Вами";
+NSLocationAlwaysUsageDescription = "Приложение использует геолокацию для отображения заданий рядом с Вами";
+NSLocationUsageDescription = "Приложение использует геолокацию для отображения заданий рядом с Вами";
+NSLocationWhenInUseUsageDescription = "Приложение использует геолокацию для отображения заданий рядом с Вами";
+NSMotionUsageDescription = "Приложение отслеживает движение для отображения шагов.";
+NSPhotoLibraryUsageDescription = "Доступ к библиотеки используется для загрузки фото или видео в задание";
+NSAppleMusicUsageDescription = "Доступ к библиотеки используется для загрузки фото или видео";

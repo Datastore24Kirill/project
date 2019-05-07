@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1zw-oA-e5r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="X06-Dn-SVm">
+            <objects>
+                <viewController id="1zw-oA-e5r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VSx-jQ-HJY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="@startScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qka-f2-BDt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHZ-88-m8j">
+                                <rect key="frame" x="131.5" y="222" width="112.5" height="112.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="@startScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gBx-Ex-qaj">
+                                        <rect key="frame" x="0.0" y="0.0" width="112.5" height="112.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="gBx-Ex-qaj" secondAttribute="height" multiplier="15:15" id="zhv-Xu-atN"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="gBx-Ex-qaj" firstAttribute="leading" secondItem="gHZ-88-m8j" secondAttribute="leading" id="86j-fq-xth"/>
+                                    <constraint firstAttribute="trailing" secondItem="gBx-Ex-qaj" secondAttribute="trailing" id="Bon-ry-QG4"/>
+                                    <constraint firstItem="gBx-Ex-qaj" firstAttribute="top" secondItem="gHZ-88-m8j" secondAttribute="top" id="DoD-oP-vXv"/>
+                                    <constraint firstAttribute="bottom" secondItem="gBx-Ex-qaj" secondAttribute="bottom" id="Ij2-Bh-UGv"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERIFIER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Os0-l3-MrE">
+                                <rect key="frame" x="157.5" y="357.5" width="60.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.61960784310000006" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qka-f2-BDt" firstAttribute="leading" secondItem="VSx-jQ-HJY" secondAttribute="leading" id="2A1-qE-eMg"/>
+                            <constraint firstItem="gBx-Ex-qaj" firstAttribute="width" secondItem="VSx-jQ-HJY" secondAttribute="width" multiplier="0.3" id="7dX-kH-2gl"/>
+                            <constraint firstAttribute="trailing" secondItem="qka-f2-BDt" secondAttribute="trailing" id="CGf-zN-oT7"/>
+                            <constraint firstItem="gHZ-88-m8j" firstAttribute="centerY" secondItem="SqV-tk-wy4" secondAttribute="centerY" multiplier="0.81" id="Nzd-wN-TmR"/>
+                            <constraint firstItem="qka-f2-BDt" firstAttribute="top" secondItem="VSx-jQ-HJY" secondAttribute="top" id="YSR-vz-Knp"/>
+                            <constraint firstItem="gHZ-88-m8j" firstAttribute="centerX" secondItem="SqV-tk-wy4" secondAttribute="centerX" id="dY4-ge-bTl"/>
+                            <constraint firstAttribute="bottom" secondItem="qka-f2-BDt" secondAttribute="bottom" id="okl-s1-5Vv"/>
+                            <constraint firstItem="Os0-l3-MrE" firstAttribute="centerX" secondItem="VSx-jQ-HJY" secondAttribute="centerX" id="vHI-aw-5Fp"/>
+                            <constraint firstItem="Os0-l3-MrE" firstAttribute="top" secondItem="gHZ-88-m8j" secondAttribute="bottom" constant="23" id="xc2-C3-Aan"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SqV-tk-wy4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3b-LO-rhJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="@startScreenBackground" width="375" height="667"/>
+        <image name="@startScreenLogo" width="116" height="122"/>
+    </resources>
+</document>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ru</string>
+	<key>CFBundleDisplayName</key>
+	<string>Verifier</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>Russian</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.8</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>vk6767908</string>
+				<string>fb334547507335274</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>0</string>
+	<key>FacebookAppID</key>
+	<string>334547507335274</string>
+	<key>FacebookDisplayName</key>
+	<string>Verifier_test</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>vk</string>
+		<string>vk-share</string>
+		<string>vkauthorize</string>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1Ijoib3h5ZmlyZSIsImEiOiJjanEyY2N2d20xM2F4NDJqeWdrODdya2NiIn0.cmAcz4JQMkd7_dMZ0FUM7A</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Доступ к библиотеки используется для загрузки фото или видео</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Камера используется для загрузки фото или видео в задание</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Приложение использует геолокацию для отображения заданий рядом с Вами</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Приложение использует геолокацию для отображения заданий рядом с Вами</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Приложение использует геолокацию для отображения заданий рядом с Вами</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Приложение использует геолокацию для отображения заданий рядом с Вами</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Доступ к микрофону используется для записи видео к заданию</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Приложение отслеживает движение для отображения шагов.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Доступ к библиотеки используется для загрузки фото или видео в задание</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>SplashScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

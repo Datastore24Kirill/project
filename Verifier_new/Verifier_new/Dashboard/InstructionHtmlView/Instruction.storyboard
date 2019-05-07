@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Instruction-->
+        <scene sceneID="uVK-tJ-cMe">
+            <objects>
+                <viewController storyboardIdentifier="InstructionVC" id="rEQ-b7-gsu" userLabel="Instruction" customClass="InstructionViewController" customModule="Verifier_new" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zaF-j5-aeZ" customClass="InstructionView" customModule="Verifier_new" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1F-8h-dTo" userLabel="HeaderTop">
+                                <rect key="frame" x="0.0" y="-85" width="320" height="196"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Инструкция" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfA-B0-Wbv">
+                                        <rect key="frame" x="22" y="166" width="178" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="5U7-zf-A3q"/>
+                                            <constraint firstAttribute="width" constant="178" id="M1o-l0-Krx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq3-f0-dwR" userLabel="BackButton">
+                                        <rect key="frame" x="0.0" y="99" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="86n-6T-Zxe"/>
+                                            <constraint firstAttribute="width" constant="50" id="j5N-o2-fXR"/>
+                                        </constraints>
+                                        <state key="normal" image="Back.Icon"/>
+                                        <connections>
+                                            <action selector="backButtonAction:" destination="rEQ-b7-gsu" eventType="touchUpInside" id="0hh-jI-nkO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.57647058819999997" green="0.86666666670000003" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="196" id="2ob-f9-nBw"/>
+                                    <constraint firstAttribute="bottom" secondItem="AfA-B0-Wbv" secondAttribute="bottom" id="BjS-Nd-Ezb"/>
+                                    <constraint firstItem="AfA-B0-Wbv" firstAttribute="leading" secondItem="n1F-8h-dTo" secondAttribute="leading" constant="22" id="USg-xn-0Cy"/>
+                                    <constraint firstItem="qq3-f0-dwR" firstAttribute="leading" secondItem="n1F-8h-dTo" secondAttribute="leading" id="Zcx-91-coA"/>
+                                    <constraint firstItem="qq3-f0-dwR" firstAttribute="top" secondItem="n1F-8h-dTo" secondAttribute="top" constant="99" id="hor-02-c92"/>
+                                </constraints>
+                            </view>
+                            <wkWebView contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="248-rF-9av">
+                                <rect key="frame" x="0.0" y="119" width="320" height="399"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT0-xs-wcq">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.25882352939999997" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HCZ-x9-DMl"/>
+                                </constraints>
+                                <state key="normal" title="Далее">
+                                    <color key="titleColor" red="0.94117647059999998" green="0.95686274510000002" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonAction:" destination="rEQ-b7-gsu" eventType="touchUpInside" id="Rhj-AT-c9Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57647058819999997" green="0.86666666670000003" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FA2-oW-WjS" firstAttribute="trailing" secondItem="248-rF-9av" secondAttribute="trailing" id="9lV-yG-v5g"/>
+                            <constraint firstAttribute="bottom" secondItem="IT0-xs-wcq" secondAttribute="bottom" id="B67-HG-ubP"/>
+                            <constraint firstItem="248-rF-9av" firstAttribute="top" secondItem="n1F-8h-dTo" secondAttribute="bottom" constant="8" id="KYH-ok-7zy"/>
+                            <constraint firstItem="IT0-xs-wcq" firstAttribute="leading" secondItem="FA2-oW-WjS" secondAttribute="leading" id="Xab-e7-xbQ"/>
+                            <constraint firstItem="FA2-oW-WjS" firstAttribute="leading" secondItem="n1F-8h-dTo" secondAttribute="leading" id="XqT-mM-UnY"/>
+                            <constraint firstItem="FA2-oW-WjS" firstAttribute="top" secondItem="n1F-8h-dTo" secondAttribute="top" constant="105" id="Yj7-wc-ORl"/>
+                            <constraint firstItem="FA2-oW-WjS" firstAttribute="trailing" secondItem="IT0-xs-wcq" secondAttribute="trailing" id="aKs-1V-0Ha"/>
+                            <constraint firstItem="n1F-8h-dTo" firstAttribute="trailing" secondItem="FA2-oW-WjS" secondAttribute="trailing" id="fCy-yN-L6h"/>
+                            <constraint firstItem="IT0-xs-wcq" firstAttribute="top" secondItem="248-rF-9av" secondAttribute="bottom" id="fKq-ho-Qw1"/>
+                            <constraint firstItem="248-rF-9av" firstAttribute="leading" secondItem="FA2-oW-WjS" secondAttribute="leading" id="q3p-ga-v57"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FA2-oW-WjS"/>
+                        <connections>
+                            <outlet property="nextButton" destination="IT0-xs-wcq" id="so5-mT-Czj"/>
+                            <outlet property="nextButtonHeight" destination="HCZ-x9-DMl" id="Wa6-Cm-Prx"/>
+                            <outlet property="screenTitle" destination="AfA-B0-Wbv" id="h6t-Sd-geA"/>
+                            <outlet property="webView" destination="248-rF-9av" id="wpa-Ia-gZb"/>
+                        </connections>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Все задания" image="Icon.AllTask" id="xi9-d1-J3Y">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="8NS-Wk-fX7"/>
+                    <connections>
+                        <outlet property="instructionView" destination="zaF-j5-aeZ" id="z7F-aM-U8F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ji0-2w-3J1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3193.125" y="-574.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Back.Icon" width="11" height="19"/>
+        <image name="Icon.AllTask" width="16" height="20"/>
+    </resources>
+</document>

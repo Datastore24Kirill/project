@@ -1,0 +1,236 @@
+/*
+ Localizable.strings
+ Verifier_new
+ 
+ Created by Кирилл Ковыршин on 07/12/2018.
+ Copyright © 2018 Verifier. All rights reserved.
+ */
+
+//MARK: - ALERT
+"Error" = "Error";
+"Error.Server" = "A server error has occurred.";
+"Error.NoInternet" = "No internet connection";
+"Error.Auth" = "Authorisation Error. Contact with developers";
+"Error.AllFieldsAreRequired" = "All fields are required";
+"Error.CheckFieldsAreRequired" = "Check that you have filled in all required fields.";
+"Error.RepeatPassword" = "Passwords must match";
+"Error.Email" = "Invalid email";
+"Error.Camera" = "Camera problem detected";
+"Error.CounElementPassword" = "Password can not be less than 6 characters";
+"Error.EmailVerification" = "Your email has not yet been verified.";
+"Error.VK" = "Authorization error through Vkontakte. Restart the application or choose another authorization method.";
+"Error.NeedVerification" = "To take the task to work, you must pass the verification. \nYou can pass verification in the \"Profile\"";
+"Error.Instruction" = "The instruction is not available";
+"Error.GeoLocation" = "To use the application requires geolocation. Please enable it for the Verifier application in your device settings.";
+"Error.LoadStepError" = "Server error loading steps. Report the error number of the support request";
+
+//STATUS
+"status.CREATED" = "Created";
+"status.ACCEPTED" = "In work";
+"status.VERIFIED" = "Done";
+"status.APPROVE" = "Confirmed";
+"status.RETURNEDTOVERIFIER" = "For revision";
+
+//MARK: - ErrorCode
+
+"Error.Code4004001" = "Wrong login or password";
+"Error.Code403002" = "A user with this Email is already registered";
+"Error.Code4004001" =  "User is not found";
+"Error.Code403007" =  "Old password was incorrect";
+"Error.Code500004" = "Not enough rights to perform this action.";
+"Error.CodeShow" = "An unknown error has occurred. Contact customer support. Error code: %@";
+
+//MARK: - Button
+"Resend" = "Resend";
+"Good" = "Ok";
+"Close" = "Close";
+"Next" = "Next";
+"Skip" = "Skip";
+"Enter" = "Login";
+"Registration" = "Registration";
+"Registered" = "Registration";
+"Done" = "Done";
+"IConfirmEmail" = "I confirmed the email";
+"Exit" = "Logout";
+"ChangePassword" =  "Change Password";
+"Rate" = "Rate";
+"Send" = "Send";
+"Edit" = "Edit";
+"Save" = "Save";
+"Cancel" = "Cancel";
+"Training" = "Get training";
+"Success" = "Success";
+"Аcquainted" = "I have read";
+"Read" = "Read";
+"km" = "km";
+"metr" = "m";
+"Refresh" = "Refresh";
+
+//MARK: - IMAGE
+"ChooseImage" = "Select image";
+"GetPhoto" = "Take a photo";
+"GetVideo" = "Take a video";
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+
+//MARK: - SignIn
+"SignIn" = "Login";
+"EmailVerificationError.Title" = "Your email is not confirmed.";
+"EmailVerificationError.Msg.FirstSend" = "A message was sent to the registration at %@\n\nTo continue work, confirm your email address by clicking on the link in the message.\n\nIf you did not receive the email, use the button below.";
+"EmailVerificationError.Msg.ReSend" = "A message has been re-sent to %@\n\nTo continue, confirm your email by clicking on the link in the message";
+
+"EmailVerificationOk.Title" = "Your email has been verified.";
+"EmailVerificationOk.Msg" = "Your email has been successfully confirmed, please log in again.";
+
+//MARK: - Fields of SignIn/SignUp
+"Email" = "E-mail";
+"Password" = "Password";
+"RepeatPassword" = "The password again";
+"FogotPassword" = "Forgot your password?";
+"NoUser" = "No account?";
+"Registration" = "Register";
+"SignUp.NickName" = "NickName";
+
+//MARK: - SignUp
+"Registration.StepOne" = "Registration - 1/2";
+
+//MARK: - SignUp StepII
+"Registration.StepTwo" = "Registration - 2/2";
+"Registration.StepTwo.StartText" = "To use the application, confirm:";
+"Registration.StepTwo.Birthday" = "Birthday";
+"Registration.StepTwo.Gender" = "Gender";
+"Registration.StepTwo.Man" = "Male";
+"Registration.StepTwo.Woman" = "Female";
+
+//MARK: - StepFinal
+"StepFinal" = "Thank you for registering";
+"Button.ConfirmEmail" = "I have confirmed my email";
+"StepFinal.EmailNeedVerification" = "To your email address sent message.\n\n To continue, confirm your email by clicking on the link in the message.\n\n After confirming the mail, click the button below.";
+
+//MARK: - NoVerifierUser
+"NoVerifierUser" = "Welcome";
+
+//MARK: - FogotPassword
+
+"FogotPassword.Title" = "Password recovery";
+"FogotPassword.Button" = "Restore password";
+"FogotPassword.PopUp.Title" = "Email sent";
+"FogotPassword.PopUp.Msg" = "You have been successfully sent an email with a temporary password.";
+
+"FogotPassword.ResetPassword.Button" = "Change password";
+"FogotPassword.PopUp.ResetPassword.Title" = "Password successfully changed";
+"FogotPassword.PopUp.ResetPassword.Msg" = "Your password has been successfully changed, now you can log in with a new password.";
+
+
+//MARK: - Profile
+"Profile.ScreenTitle" = "Profile";
+"Profile.MyMoney" = "My money";
+"Profile.GetMyMoney" = "Get money";
+"Profile.Status" = "Status";
+"Profile.Balance" = "%@ ₽";
+"Profile.Status.NotIdentified" = "Not identified";
+"Profile.Status.OnCheck" = "On check";
+"Profile.Status.Verified" = "Verified";
+"Profile.Status.RequiresVerification" = "Requires verification";
+"Profile.Status.Verifier" = "Verifier";
+"Profile.Status.PreVerifier" = "Pre-Verifier";
+"Profile.Status.Unknowed" = "No Specified";
+
+
+//MARK: - Profile Settings
+"Profile.Settings.ScreenTitle" = "Settings";
+"Profile.Settings.EditProfile" = "Edit Profile";
+"Profile.Settings.ChangePassword" = "Change Password";
+"Profile.Settings.VerProfile" = "Profile Verification";
+"Profile.Settings.ChangeLanguage" = "Change Language";
+"Profile.Settings.Documents" = "Documents";
+
+//MARK: - Profile Edit
+"ProfileEdit.ScreenTitle" = "Edit Profile";
+"ProfileEditOk.Title" = "Successfully";
+"ProfileEditOk.ImageMsg" = "Avatar successfully uploaded. To apply the changes, click \"Save\" button";
+"ProfileEditOk.Msg" = "Profile changed successfully";
+"ProfileEdit.FirstName" = "First Name";
+"ProfileEdit.LastName" = "Last Name";
+"ProfileEdit.Phone" = "Phone";
+
+//MARK: - Profile Change Language
+"Profile.ChangeLanguage" = "Change Language";
+
+//MARK: - Profile Documents
+"Profile.Documents.ScreenTitle" = "Documents";
+
+//MARK: - ChangePassword
+"ChangePassword.ScreenTitle" = "Change password";
+"OldPassword" = "Old Password";
+
+//MARK: - Help
+"FAQ" = "FAQ";
+"SupportMail" = "Write to developers";
+"RateApp" = "Rate app";
+"OnlineSupport" = "Online support";
+
+//MARK: - FeedBack
+"FeedBack.Name" = "Name";
+"FeedBack.Message" = "Message";
+"FeedBackPopUp.Title" = "Successfully";
+"FeedBackPopUp.Msg" = "Your email to developers has been successfully sent.";
+
+//MARK: - Notification
+"Notification.ScreenTitle" = "Notifications";
+"Notification.ReadAll" = "Read all";
+
+//MARK: - Verification
+"Verification.ScreenTitle" = "Verification";
+"Verification.StartChatButton" = "Start chat";
+"Verification.SwitchError" = "Вы должны принять политику конфиденциальности, что бы продолжить";
+
+//MARK: - AllTask
+"AllTask.ScreenTitle" = "Tasks";
+"AllTask.NeedTraining.Title" = "Training required";
+"AllTask.NeedTraining.Msg" = "To access this application, you need to be trained. \n\nAfter completing the training, this type of application will be available to you for verification.";
+"AllTask.continueTo" = "Continue to ";
+"AllTask.DoToday" = "Complete today";
+"AllTask.DoTomorow" = "Complete tomorrow";
+
+//MARK: - TASK
+"Task.Title" = "Task";
+"Task.Info" = "Description";
+"Task.Address" = "Address";
+"Task.Dates" = "Dates";
+"Task.verifTimeTo" = "Complete up to";
+"Task.verifTimeToDays" = "Left";
+"Task.customerName" = "Customer";
+"Task.getOrder" = "Take a job";
+"Task.nextScreen" = "Continue the task";
+
+//MARK: - TASKSTEP
+
+"TaskStep.TextViewPlaceHolder" = "Enter text";
+"TaskSte.RateTaskSuccess" = "Your rating has been sent";
+
+//MARK: - MyTask
+
+"MyTask.ScreenTitle" = "My Task";
+
+//MARK: - Instruction
+
+"Instruction.ScreenTitle" = "Instruction";
+"Instruction.NextButton" = "Interactive instruction";
+
+//MARK: - EMPTY TABLE
+
+"Notasks" = "No tasks";
+"Notasks.AllTask" = "Now there are no tasks for you to display. Use filters or pass verification.";
+"NoTasks.ACCEPTED" = "Here you will see the tasks that you have taken to work, but have not completed.";
+"Notasks.VERIFIED" = "The tasks that you have completed and that have been approved by the customer will be displayed here.";
+"Notasks.APPROVE" = "The tasks that the customer has approved will be displayed here.";
+"Notasks.RETURNED_TO_VERIFIER" = "Here you will see the tasks that you need to finalize. This may be when the task is not worked correctly or not fully.";
+
+
+//MARK: - LOCOLIZED TAB BAR
+
+"TabBar.AllTask" = "All Task";
+"TabBar.MyTask" = "My Task";
+"TabBar.Profile" = "Profile";
+"TabBar.Help" = "Help";

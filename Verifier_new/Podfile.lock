@@ -1,0 +1,256 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BadgeSwift (7.0.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Cosmos (18.0.1)
+  - DropDown (2.3.13)
+  - DynamicBlurView (3.0.1)
+  - EmptyDataSet-Swift (4.0.5)
+  - FacebookCore (0.6.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.43)
+  - FacebookLogin (0.6.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.43)
+    - FBSDKLoginKit (~> 4.43)
+  - FacebookShare (0.6.1):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.43)
+    - FBSDKShareKit (~> 4.43)
+  - FBSDKCoreKit (4.44.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.44.0):
+    - FBSDKCoreKit
+  - Firebase/Core (5.20.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.0)
+  - Firebase/CoreOnly (5.20.1):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Messaging (5.20.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.5.0)
+  - FirebaseAnalytics (5.8.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - FirebaseMessaging (3.5.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.6)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/Reachability (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (5.8.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.0.3):
+    - GoogleMaps (= 3.0.3)
+    - GooglePlaces (= 3.0.3)
+  - GooglePlaces (3.0.3):
+    - GoogleMaps/Base (= 3.0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.5.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.5.0)
+  - GoogleUtilities/Logger (5.5.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.5.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.5.0)"
+  - GoogleUtilities/Reachability (5.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.5.0):
+    - GoogleUtilities/Logger
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Core (1.7.0)
+  - IQKeyboardManagerSwift (6.2.1)
+  - JMMaskTextField-Swift (0.1.3)
+  - Mapbox-iOS-SDK (4.9.0)
+  - MBProgressHUD (1.1.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - PopupDialog (0.9.2):
+    - DynamicBlurView (~> 3.0.1)
+  - Protobuf (3.7.0)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - ReverseExtension (0.5.0)
+  - SDWebImage (5.0.0):
+    - SDWebImage/Core (= 5.0.0)
+  - SDWebImage/Core (5.0.0)
+  - StepSlider (1.4.0)
+  - SwiftPullToRefresh (3.1)
+  - SwiftyVK (3.3.2)
+  - TTSegmentedControl (0.4.7)
+  - UDatePicker (1.1.1)
+  - UICircularProgressRing (6.1.0)
+  - UIColor_Hex_Swift (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BadgeSwift (~> 7.0)
+  - Cosmos
+  - DropDown
+  - EmptyDataSet-Swift (~> 4.0.5)
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - ImageSlideshow (~> 1.6)
+  - IQKeyboardManagerSwift
+  - JMMaskTextField-Swift
+  - Mapbox-iOS-SDK (~> 4.7)
+  - MBProgressHUD
+  - PopupDialog (~> 0.9)
+  - RealmSwift
+  - ReverseExtension
+  - SDWebImage
+  - StepSlider
+  - SwiftPullToRefresh
+  - SwiftyVK
+  - TTSegmentedControl
+  - UDatePicker (~> 1.1.0)
+  - UICircularProgressRing
+  - UIColor_Hex_Swift (~> 4.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BadgeSwift
+    - Bolts
+    - Cosmos
+    - DropDown
+    - DynamicBlurView
+    - EmptyDataSet-Swift
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleUtilities
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - JMMaskTextField-Swift
+    - Mapbox-iOS-SDK
+    - MBProgressHUD
+    - nanopb
+    - PopupDialog
+    - Protobuf
+    - Realm
+    - RealmSwift
+    - ReverseExtension
+    - SDWebImage
+    - StepSlider
+    - SwiftPullToRefresh
+    - SwiftyVK
+    - TTSegmentedControl
+    - UDatePicker
+    - UICircularProgressRing
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BadgeSwift: 5cfacfad916d85e2f68d93dbb9ade4e9555903da
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
+  FacebookCore: 38cd3a4078738d6f648eb9b6b9d35b02d693e9a1
+  FacebookLogin: 658b0569961a081a0890f5f4dbf69ced00657d9e
+  FacebookShare: 84bccbc222fc09c839b851925ad6c295a4ab7840
+  FBSDKCoreKit: 8bcd4503afe43f28823c2175a6142a7f50f1bf28
+  FBSDKLoginKit: 93c5a407ab1a6a17b1b38cff57e89991f714d878
+  FBSDKShareKit: 3c602da4b40337c94df9372f3329a1eab03acdec
+  Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
+  FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  FirebaseMessaging: 4235f949ce1c4e827aeb19705ba5c53f9b85aa10
+  GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GooglePlacePicker: 0c90898945f02ef36cce86fc9a107e1c5d3d26b1
+  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
+  GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  JMMaskTextField-Swift: 16aa552605b121285e6c2f0817ab31cea5f4704b
+  Mapbox-iOS-SDK: 225036950837cbe408e6b333e51cd6001c122499
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PopupDialog: f4bb461bf70ff422be0b56656566424ee9273080
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  ReverseExtension: 21c8dd4e767f93b56fb97d873686d24160f83945
+  SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
+  StepSlider: 943dac4e56678b8a92a0ecae5e4d83c5a5c4cc8e
+  SwiftPullToRefresh: 80e15ed475994978fb849ffe02f75c72a846642d
+  SwiftyVK: fe40c182bc4da4f09af7f6f92a78292dc6e0290e
+  TTSegmentedControl: 422a8fab507a02a60050476d69d577052550f592
+  UDatePicker: 9bc1e36698982375332daff674d26a68d40e2d3a
+  UICircularProgressRing: b3eba859a515e4d9d38503eec913f09c28450785
+  UIColor_Hex_Swift: bc07fc197421ee896b9ed6dcfa2054b7fbf75145
+
+PODFILE CHECKSUM: a9cb02f983c04bd9e88eecb7ee3baa57f2cde543
+
+COCOAPODS: 1.5.3

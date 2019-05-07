@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Verifier_new.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Verifier_new"
+      name = "Verifier_new">
+      <FileRef
+         location = "group:Verifier_new/Verifier_new.entitlements">
+      </FileRef>
+      <FileRef
+         location = "group:Verifier_new/AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Verifier_new/VerifierAppDefaultViewController.swift">
+      </FileRef>
+      <Group
+         location = "group:Verifier_new/SplashScreen"
+         name = "SplashScreen">
+         <FileRef
+            location = "group:Verifier_new/SplashScreen/SplashScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SplashScreen/LaunchViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SplashScreen/SplashScreenViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SplashScreen/SplashScreenView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SplashScreen/IntroViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SplashScreen/IntroView.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Verifier_new/SignIn"
+         name = "SignIn">
+         <Group
+            location = "group:Verifier_new/SignIn/Fogot Password"
+            name = "Fogot Password">
+            <FileRef
+               location = "group:Verifier_new/SignIn/Fogot Password/FogotPasswordViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignIn/Fogot Password/FogotPasswordView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignIn/Fogot Password/FogotPasswordModel.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Verifier_new/SignIn/SignInViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SignIn/SignInView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SignIn/SignIn.storyboard">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Verifier_new/SignUp"
+         name = "SignUp">
+         <Group
+            location = "group:Verifier_new/SignUp/SocialPassword"
+            name = "SocialPassword">
+            <FileRef
+               location = "group:Verifier_new/SignUp/SocialPassword/SocialPasswordViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/SocialPassword/SocialPasswordView.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/SignUp/NoVerifierUser"
+            name = "NoVerifierUser">
+            <FileRef
+               location = "group:Verifier_new/SignUp/NoVerifierUser/NoVerifierUserViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/NoVerifierUser/NoVerifierUserView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/NoVerifierUser/NoVerifierUserModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/SignUp/Step Final"
+            name = "Step Final">
+            <FileRef
+               location = "group:Verifier_new/SignUp/Step Final/StepFinalViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/Step Final/StepFinalView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/Step Final/StepFinalModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/SignUp/Step Two"
+            name = "Step Two">
+            <FileRef
+               location = "group:Verifier_new/SignUp/Step Two/SignUpStepTwoViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/Step Two/SignUpStepTwoView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/SignUp/Step Two/SignUpStepTwoModel.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Verifier_new/SignUp/SignUpViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SignUp/SignUpView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SignUp/SignUpModel.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/SignUp/SignUp.storyboard">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Verifier_new/Dashboard"
+         name = "Dashboard">
+         <Group
+            location = "group:Verifier_new/Dashboard/TaskFilter"
+            name = "TaskFilter">
+            <FileRef
+               location = "group:Verifier_new/Dashboard/TaskFilter/TaskFilterViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/TaskFilter/TaskFilterView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/TaskFilter/TaskFilterModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/TaskFilter/TaskFilteCategoryTableView.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Dashboard/AllTask"
+            name = "AllTask">
+            <Group
+               location = "group:Verifier_new/Dashboard/AllTask/TaskInfo"
+               name = "TaskInfo">
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskInfo/TaskInfoViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskInfo/TaskInfoView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskInfo/TaskInfoModel.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Verifier_new/Dashboard/AllTask/TaskStep"
+               name = "TaskStep">
+               <Group
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat"
+                  name = "Chat">
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat/ChatController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat/html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat/JivoSdk.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat/JivoSdk.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat/JivoSite.storyboard">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Chat/Verifier_new-Bridging-Header.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Cell"
+                  name = "Cell">
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Cell/TaskStepTextCell.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Cell/TaskStepPhotoCell.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Cell/TaskStepVideoCell.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Cell/TaskStepCheckCell.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/AllTask/TaskStep/Cell/TaskStepMarkCell.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/TaskStepViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/TaskStepView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/TaskStepModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/RatingTaskViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/AllTask/TaskStep/RatingTaskViewController.xib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/AllTask/AllTaskViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/AllTask/AllTaskView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/AllTask/AllTaskModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/AllTask/AllTaskWithoutEducationCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/AllTask/AllTaskWithEducationCell.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Dashboard/MapAllTask"
+            name = "MapAllTask">
+            <FileRef
+               location = "group:Verifier_new/Dashboard/MapAllTask/MapAllTaskViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/MapAllTask/MapAllTaskView.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Dashboard/MyTask"
+            name = "MyTask">
+            <FileRef
+               location = "group:Verifier_new/Dashboard/MyTask/MyTaskViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/MyTask/MyTaskView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/MyTask/MyTaskModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/MyTask/MyTaskCell.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Dashboard/Profile"
+            name = "Profile">
+            <Group
+               location = "group:Verifier_new/Dashboard/Profile/Settings"
+               name = "Settings">
+               <Group
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/Profile Edit"
+                  name = "Profile Edit">
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Profile Edit/ProfileEditViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Profile Edit/ProfileEditView.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Profile Edit/ProfileEditModel.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/Change Password"
+                  name = "Change Password">
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Change Password/ChangePasswordViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Change Password/ChangePasswordView.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Change Password/ChangePasswordModel.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/Change Language"
+                  name = "Change Language">
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Change Language/ChangeLanguageViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Change Language/ChangeLanguageView.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/Documents"
+                  name = "Documents">
+                  <Group
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentView"
+                     name = "DocumentView">
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentView/DocumentViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentView/DocumentView.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentView/DocumentModel.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentsViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentsView.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Settings/Documents/DocumentsModel.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/SettingsProfileViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/SettingsProfileView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Settings/SettingsProfileModel.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Verifier_new/Dashboard/Profile/Notification"
+               name = "Notification">
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Notification/NotificationViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Notification/NotificationView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Notification/NotificationModel.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Verifier_new/Dashboard/Profile/Verification"
+               name = "Verification">
+               <Group
+                  location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser"
+                  name = "VerificationUser">
+                  <Group
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps"
+                     name = "Steps">
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepOneViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepTwoViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepThreeViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepFourViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepFiveViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepSixViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepSevenViewController.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/Steps/VerifUserStepModel.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationUser/VerificationUser.storyboard">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat"
+                  name = "VerificationChat">
+                  <Group
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/Cell"
+                     name = "Cell">
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/Cell/ChatBot&#x421;ellWhite.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/Cell/ChatBot&#x421;ellBlue.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/Cell/ChatUserButton&#x421;ell.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/Cell/ChatUserResult&#x421;ell.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/Cell/ChatUserButtonLogical&#x421;ell.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/VerificationChatViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/VerificationChatView.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/VerificationChatModel.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationChat/VerificationChat.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Profile/Verification/VerificationModel.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/Profile/ProfileViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/Profile/ProfileView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/Profile/ProfileModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Dashboard/Help"
+            name = "Help">
+            <Group
+               location = "group:Verifier_new/Dashboard/Help/FAQ"
+               name = "FAQ">
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FAQ/FAQViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FAQ/FAQView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FAQ/FAQShowAnswerViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FAQ/FAQShowAnswerView.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Verifier_new/Dashboard/Help/FeedBack"
+               name = "FeedBack">
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FeedBack/FeedBackViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FeedBack/FeedBackView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Verifier_new/Dashboard/Help/FeedBack/FeedBackModel.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/Help/HelpViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/Help/HelpView.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Dashboard/InstructionHtmlView"
+            name = "InstructionHtmlView">
+            <FileRef
+               location = "group:Verifier_new/Dashboard/InstructionHtmlView/InstructionViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/InstructionHtmlView/InstructionView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Dashboard/InstructionHtmlView/Instruction.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Verifier_new/Dashboard/Dashboard.storyboard">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Verifier_new/Supports Files"
+         name = "Supports Files">
+         <Group
+            location = "group:Verifier_new/Supports Files/Google Models"
+            name = "Google Models">
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Google Models/GoogleResponsePrediction.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Google Models/GoogleResponseResult.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Supports Files/Models"
+            name = "Models">
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/ServerResponse.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/AlertText.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/ResponseBody.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/User.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/Place.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/ResponseResult.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/Fields.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Models/FilterContentModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Supports Files/Managers"
+            name = "Managers">
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Managers/LocationManager.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Managers/NotificationManager.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Managers/GoogleManager.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Verifier_new/Supports Files/Extensions"
+            name = "Extensions">
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/GoogleService-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Verifier+NSString.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Verifier+Date.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/URL+Parameters.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Verifier+Data.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/String+Validate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Dictionary+Merge.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Verifier+View.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/ConverViewToImage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Button + Closure.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Rounded + Double.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/FieldsIDElements.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Verifier_new/Supports Files/Extensions/Model+UIDevice.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/Constants.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/InternalHelper.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/EnumCollection.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/APIRequestHendler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/SwiftyJSON.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/SingleTone.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/RealmDB.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/FilterDB.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/LoginMethod.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/Supports Files/logo_pre.gif">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Verifier_new"
+         name = "LaunchScreen.storyboard">
+         <FileRef
+            location = "group:Verifier_new/Base.lproj/LaunchScreen.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Verifier_new/RatingViewController.xib">
+      </FileRef>
+      <FileRef
+         location = "group:Verifier_new/RatingViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Verifier_new/Assets.xcassets">
+      </FileRef>
+      <FileRef
+         location = "group:Verifier_new/Info.plist">
+      </FileRef>
+      <Group
+         location = "group:Verifier_new"
+         name = "InfoPlist.strings">
+         <FileRef
+            location = "group:Verifier_new/en.lproj/InfoPlist.strings">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/ru.lproj/InfoPlist.strings">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Verifier_new"
+         name = "Localizable.strings">
+         <FileRef
+            location = "group:Verifier_new/ru.lproj/Localizable.strings">
+         </FileRef>
+         <FileRef
+            location = "group:Verifier_new/en.lproj/Localizable.strings">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

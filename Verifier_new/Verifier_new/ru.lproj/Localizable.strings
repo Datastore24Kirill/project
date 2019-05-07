@@ -1,0 +1,239 @@
+/*
+  Localizable.strings
+  Verifier_new
+
+  Created by Кирилл Ковыршин on 07/12/2018.
+  Copyright © 2018 Verifier. All rights reserved.
+*/
+
+//MARK: - ALERT
+"Error" = "Ошибка";
+"Error.Server" = "Произошла серверная ошибка";
+"Error.NoInternet" = "Отсутствует интернет соединение";
+"Error.Auth" = "Ошибка авторизации. Обратитесь к администратору";
+"Error.AllFieldsAreRequired" = "Все поля обязательны для заполнения";
+"Error.CheckFieldsAreRequired" = "Проверьте, что Вы заполнили все обязательные поля";
+"Error.RepeatPassword" = "Пароли должны совпадать";
+"Error.Email" = "Неверное указан email";
+"Error.Camera" = "Обнаружена проблема с камерой";
+"Error.CounElementPassword" = "Пороль не может быть меньше 6 символов";
+"Error.EmailVerification" = "Ваш Email еще не подтвержден";
+"Error.VK" = "Ошибка авторизации через Вконтакте. Перезагрузите приложение или выберите другой способ авторизации";
+"Error.NeedVerification" = "Что бы взять задание в работу необходимо пройти верификацию. \nВерификацию Вы можете пройти в разделе \"Профиль\"";
+"Error.Instruction" = "Инструкция недоступна";
+"Error.GeoLocation" = "Для использования приложения необходима геолокация. Пожалуйста включите ее для приложения Verifier в настройках Вашего устройства.";
+"Error.LoadStepError" = "Серверная ошибка загрузки шагов. Сообщите номер задания в службу поддержки";
+
+//STATUS
+"status.CREATED" = "Создано";
+"status.ACCEPTED" = "В работе";
+"status.VERIFIED" = "Выполнено";
+"status.APPROVE" = "Одобрено";
+"status.RETURNEDTOVERIFIER" = "На доработку";
+
+//MARK: - ErrorCode
+
+"Error.Code4004001" = "Не верный логин или пароль";
+"Error.Code403002" = "Пользователь с таким Email уже зарегистрирован";
+"Error.Code4004001" =  "Пользователь не найден";
+"Error.Code403007" =  "Старый пароль был указан неверно";
+"Error.Code500004" = "Недостаточно прав для выполнения этого действия";
+"Error.CodeShow" = "Произошла неизвестная ошибка. Свяжитесь со службой поддержки. Код ошибки %@";
+
+//MARK: - Button
+"Resend" = "Отправить повторно";
+"Good" = "Хорошо";
+"Close" = "Закрыть";
+"Next" = "Далее";
+"Skip" = "Пропустить";
+"Enter" = "Войти";
+"Registration" = "Регистрация";
+"Registered" = "Зарегистрироваться";
+"Done" = "Готово";
+"IConfirmEmail" = "Я подтвердил email";
+"Exit" = "Выход";
+"ChangePassword" =  "Изменить пароль";
+"Rate" = "Оценить";
+"Send" = "Отправить";
+"Edit" = "Изменить";
+"Save" = "Сохранить";
+"Cancel" = "Отменить";
+"Training" = "Пройти обучение";
+"Success" = "Успешно";
+"Аcquainted" = "Я ознакомился";
+"Read" = "Прочитано";
+"km" = "км";
+"metr" = "м";
+"Refresh" = "Обновить";
+
+//MARK: - IMAGE
+"ChooseImage" = "Выберите изображение";
+"GetPhoto" = "Сделайте фото";
+"GetVideo" = "Сделайте видео";
+"Camera" = "Камера";
+"Gallery" = "Галерея";
+
+//MARK: - SignIn
+"SignIn" = "Вход";
+"EmailVerificationError.Title" = "Ваш email не подтвержден.";
+"EmailVerificationError.Msg.FirstSend" = "При регистрации на %@ было отправленно сообщение.\n\nДля продолжения работы подтвердите свой email, перейдя по ссылке в сообщении.\n\nЕсли вы не получали письма, воспользуйтесь кнопкой ниже";
+"EmailVerificationError.Msg.ReSend" = "На %@ повторно отправленно сообщение.\n\nДля продолжения работы подтвердите свой email, перейдя по ссылке в сообщении";
+
+"EmailVerificationOk.Title" = "Ваш email подтвержден.";
+"EmailVerificationOk.Msg" = "Ваш email был успешно подтвержден, пожалуйста авторизуйтесь повторно";
+
+//MARK: - Fields of SignIn/SignUp
+"Email" = "Электронная почта";
+"Password" = "Пароль";
+"RepeatPassword" = "Пароль еще раз";
+"FogotPassword" = "Забыли пароль?";
+"NoUser" = "Нет учетной записи?";
+"Registration" = "Зарегистрироваться";
+"SignUp.NickName" = "Никнейм";
+
+//MARK: - SignUp
+"Registration.StepOne" = "Регистрация - 1/2";
+
+//MARK: - SignUp StepII
+"Registration.StepTwo" = "Регистрация - 2/2";
+"Registration.StepTwo.StartText" = "Для того, что бы вы могли использовать приложение, подтвердите:";
+"Registration.StepTwo.Birthday" = "дата рождения";
+"Registration.StepTwo.Gender" = "Твой пол";
+"Registration.StepTwo.Man" = "Мужчина";
+"Registration.StepTwo.Woman" = "Женщина";
+
+//MARK: - StepFinal
+"StepFinal" = "Спасибо за регистрацию";
+"Button.ConfirmEmail" = "Я подтвердил свой Email";
+"StepFinal.EmailNeedVerification" = "На указанный вами эл. адрес отправленно сообщение.\n\n Для продолжения работы подтвердите свой email, перейдя по ссылке в сообщении.\n\n После подтверждения почты, нажмите кнопку ниже";
+
+//MARK: - NoVerifierUser
+"NoVerifierUser" = "Добро пожаловать";
+
+//MARK: - FogotPassword
+
+"FogotPassword.Title" = "Восстановление пароля";
+"FogotPassword.Button" = "Восстановить пароль";
+"FogotPassword.PopUp.Title" = "Письмо отправлено";
+"FogotPassword.PopUp.Msg" = "Вам было успешно отправлено письмо с временным паролем.";
+
+"FogotPassword.ResetPassword.Button" = "Сменить пароль";
+"FogotPassword.PopUp.ResetPassword.Title" = "Пароль успешно изменен";
+"FogotPassword.PopUp.ResetPassword.Msg" = "Ваш пароль был успешно изменен, теперь Вы можете войти с новым паролем.";
+
+
+//MARK: - Profile
+"Profile.ScreenTitle" = "Профиль";
+"Profile.MyMoney" = "Мои деньги";
+"Profile.GetMyMoney" = "Вывести средства";
+"Profile.Status" = "Статус";
+"Profile.Balance" = "%@ ₽";
+"Profile.Status.NotIdentified" = "Не идентифицирован";
+"Profile.Status.OnCheck" = "На проверке";
+"Profile.Status.Verified" = "Верифицирован";
+"Profile.Status.RequiresVerification" = "Требует доверификации";
+"Profile.Status.Verifier" = "Верифаер";
+"Profile.Status.PreVerifier" = "Пре-Верифаер";
+"Profile.Status.Unknowed" = "Не указано";
+
+//MARK: - Profile Settings
+"Profile.Settings.ScreenTitle" = "Настройки";
+"Profile.Settings.EditProfile" = "Изменить данные";
+"Profile.Settings.ChangePassword" = "Сменить пароль";
+"Profile.Settings.VerProfile" = "Верифицировать профиль";
+"Profile.Settings.ChangeLanguage" = "Сменить язык";
+"Profile.Settings.Documents" = "Документы";
+
+//MARK: - Profile Edit
+"ProfileEdit.ScreenTitle" = "Редактировать данные";
+"ProfileEditOk.Title" = "Успешно";
+"ProfileEditOk.ImageMsg" = "Аватар успешно загружен. Для применения изменений нажмите кнопку \"Сохранить\"";
+"ProfileEditOk.Msg" = "Данные профиля успешно изменены";
+"ProfileEdit.FirstName" = "Имя";
+"ProfileEdit.LastName" = "Фамилия";
+"ProfileEdit.Phone" = "Телефон";
+
+//MARK: - Profile Change Language
+"Profile.ChangeLanguage" = "Смена языка";
+
+//MARK: - Profile Documents
+"Profile.Documents.ScreenTitle" = "Документы";
+
+//MARK: - ChangePassword
+"ChangePassword.ScreenTitle" = "Сменить пароль";
+"OldPassword" = "Старый пароль";
+
+//MARK: - Help
+"FAQ" = "Частые вопросы";
+"SupportMail" = "Написать разработчикам";
+"RateApp" = "Оценить приложение";
+"OnlineSupport" = "Online поддержка";
+
+//MARK: - FeedBack
+"FeedBack.Name" = "Имя";
+"FeedBack.Message" = "Сообщение";
+"FeedBackPopUp.Title" = "Успешно";
+"FeedBackPopUp.Msg" = "Ваше письмо разработчикам успешно отправлено";
+
+//MARK: - Notification
+"Notification.ScreenTitle" = "Уведомления";
+"Notification.ReadAll" = "Прочитать все";
+
+//MARK: - Verification
+"Verification.ScreenTitle" = "Верификация";
+"Verification.StartChatButton" = "Начать";
+"Verification.SwitchError" = "Вы должны принять политику конфиденциальности, что бы продолжить";
+
+//MARK: - AllTask
+"AllTask.ScreenTitle" = "Задания";
+"AllTask.NeedTraining.Title" = "Требуется обучение";
+"AllTask.NeedTraining.Msg" = "Для доступа к этому заданию, Вам необходимо пройти обучение. \n\nПосле прохождения обучения, данный тип заданий будет доступен Вам для верификации.";
+"AllTask.continueTo" = "Выполнить до ";
+"AllTask.DoToday" = "Выполнить сегодня";
+"AllTask.DoTomorow" = "Выполнить завтра";
+
+//MARK: - TASK
+"Task.Title" = "Задание";
+"Task.Info" = "Описание";
+"Task.Address" = "Адрес";
+"Task.Dates" = "Даты";
+"Task.verifTimeTo" = "Завершить до";
+"Task.verifTimeToDays" = "Осталось";
+"Task.customerName" = "Заказчик";
+"Task.getOrder" = "Взять в работу";
+"Task.nextScreen" = "Продолжить выполнение";
+
+//MARK: - TASKSTEP
+
+"TaskStep.TextViewPlaceHolder" = "Введите текст";
+"TaskSte.RateTaskSuccess" = "Ваша оценка отправлена";
+
+//MARK: - MyTask
+
+"MyTask.ScreenTitle" = "Мои задания";
+
+//MARK: - Instruction
+
+"Instruction.ScreenTitle" = "Инструкция";
+"Instruction.NextButton" = "Интерактивная инструкция";
+
+//MARK: - EMPTY TABLE
+
+"Notasks" = "Нет заданий";
+"Notasks.AllTask" = "Сейчас для Вас нет заданий для отображения. Воспользуйтесь фильтрами или пройдите верификацию";
+"NoTasks.ACCEPTED" = "Здесь будут отображаться задания которые Вы взяли в работу, но не завершили.";
+"Notasks.VERIFIED" = "Здесь будут отображаться задания, которые вы выполнили и которые были одобрены заказчиком.";
+"Notasks.APPROVE" = "Здесь будут отображаться задания, которые одобрил заказчик.";
+"Notasks.RETURNED_TO_VERIFIER" = "Здесь будут отображаться задания, которые Вам необходимо доработать. Такое может быть когда задание отработанно не корректно или не полноценно.";
+
+//MARK: - LOCOLIZED TAB BAR
+
+"TabBar.AllTask" = "Все задания";
+"TabBar.MyTask" = "Мои задания";
+"TabBar.Profile" = "Профиль";
+"TabBar.Help" = "Помощь";
+
+
+//MARK: TASK STEP TABLE
+"TaskStepTable.ScreenTitle" = "Список шагов";
+"TaskStepTable.NextButton" = "Шаги проверены, отправить на сервер";
