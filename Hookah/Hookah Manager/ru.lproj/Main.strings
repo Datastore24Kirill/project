@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Телефон"; ObjectID = "08e-5t-emv"; */
+"08e-5t-emv.text" = "Телефон";
+
+/* Class = "UILabel"; text = "Пароль"; ObjectID = "5ja-cY-Mpg"; */
+"5ja-cY-Mpg.text" = "Пароль";
+
+/* Class = "UILabel"; text = "Дата рождения"; ObjectID = "8CK-a0-6gu"; */
+"8CK-a0-6gu.text" = "Дата рождения";
+
+/* Class = "UILabel"; text = "На номер +7 960 966 0066 отправлено сообщение с кодом подтверждения"; ObjectID = "9eq-IN-uiM"; */
+"9eq-IN-uiM.text" = "На номер +7 960 966 0066 отправлено сообщение с кодом подтверждения";
+
+/* Class = "UILabel"; text = "Возникли проблемы при авторизации по номеру телефона. Попробуйте войти при помощи вашего логина и пароля"; ObjectID = "GV7-sG-ds6"; */
+"GV7-sG-ds6.text" = "Возникли проблемы при авторизации по номеру телефона. Попробуйте войти при помощи вашего логина и пароля";
+
+/* Class = "UILabel"; text = "Введите код из смс"; ObjectID = "R4j-Zc-6Cx"; */
+"R4j-Zc-6Cx.text" = "Введите код из смс";
+
+/* Class = "UILabel"; text = "Введите номер телефона"; ObjectID = "WWQ-xX-xsd"; */
+"WWQ-xX-xsd.text" = "Введите номер телефона";
+
+/* Class = "UILabel"; text = "Пароль"; ObjectID = "WhB-jJ-mRK"; */
+"WhB-jJ-mRK.text" = "Пароль";
+
+/* Class = "UITextField"; text = "+"; ObjectID = "Xqb-uX-G4f"; */
+"Xqb-uX-G4f.text" = "+";
+
+/* Class = "UIButton"; normalTitle = "Зарегистрироваться"; ObjectID = "e4D-Y1-0nq"; */
+"e4D-Y1-0nq.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "Подтвердите пароль"; ObjectID = "lVo-MG-0V5"; */
+"lVo-MG-0V5.text" = "Подтвердите пароль";
+
+/* Class = "UILabel"; text = "Ваше имя"; ObjectID = "lbV-F8-Pkr"; */
+"lbV-F8-Pkr.text" = "Ваше имя";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "nyr-dw-KhA"; */
+"nyr-dw-KhA.title" = " ";
+
+/* Class = "UITextField"; text = "+"; ObjectID = "qIV-Gv-HJw"; */
+"qIV-Gv-HJw.text" = "+";

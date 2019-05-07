@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  Hookah Manager
+
+  Created by Виктор Мишустин on 06.01.17.
+  Copyright © 2017 Viktor Mishustin. All rights reserved.
+*/
+
+
+//Autorization -> LoginPhone---------||
+
+"LoginPhone_title" = "Вход";
+"LoginPhone_buttonNext" = "Продолжить";
+"LoginPhone_labelInputPhone_text" = "Введите номер телефона";
+
+//Autorization -> LoginInputCodeController---------||
+
+"LoginInputCodeController_title" = "Вход";
+"LoginInputCodeController_buttonNext" = "Продолжить";
+"LoginInputCodeController_buttonCodeAgain" = "выслать код повторно";
+"LoginInputCodeController_labelDescription_first" = "На номер ";
+"LoginInputCodeController_labelDescription_second" = " отправлено сообщение с кодом подтверждения";
+"LoginInputCodeController_labelInputCode" = "Введите код из смс";
+
+//Autorization -> RegistrationMainController---------||
+
+"RegistrationMainController_title" = "Регистрация";
+
+"RegistrationMainController_labelName" = "Ваше имя";
+"RegistrationMainController_labelBirthday" = "Дата рождения";
+"RegistrationMainController_labelPass" = "Пароль";
+"RegistrationMainController_labelConfPass" = "Подтвердите пароль";
+"RegistrationMainController_buttonRegistration" = "Зарегистрироваться";
+
+//Autorization -> CountryController---------||
+
+"CountryController_title" = "Выберите страну";
+
+//Autorization -> CitiesController---------||
+
+"CitiesController_title" = "Выберите город";
+
+//Autorization -> ErrorInputController---------||
+
+"ErrorInputController_title" = "Вход";
+"ErrorInputController_buttonNext" = "Войти";
+
+"ErrorInputController_labelDescription" = "Возникли проблемы при авторизации по номеру телефона. Попробуйте войти при помощи вашего логина и пароля";
+"ErrorInputController_labelPhone" = "Телефон";
+"ErrorInputController_labelPass" = "Пароль";
+
