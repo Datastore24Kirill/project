@@ -12,7 +12,7 @@ import MBProgressHUD
 import PopupDialog
 import CoreLocation
 import MapKit
-import MobileCoreServices
+
 import AVFoundation
 
 class VerifierAppDefaultViewController: UIViewController {
